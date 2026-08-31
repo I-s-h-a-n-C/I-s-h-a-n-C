@@ -1,3 +1,9 @@
 <div align="center">
 
-# Hi, I'm Ishan Chakrabarti
+# Ishan
+
+<br />
+
+<img src="fd.svg" alt="Ishan" width="450" />
+
+</div>
