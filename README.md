@@ -3,7 +3,7 @@
 <!-- Waving Animated Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F2FE,100:4FACFE&height=180&section=header&text=ISHAN&fontSize=65&fontColor=ffffff&fontAlignY=35" width="100%" />
 
-### Student
+### High School Senior
 
 <br />
 
