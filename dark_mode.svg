@@ -1,88 +1,2225 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="985" height="590" viewBox="0 0 985 590" font-family="Consolas, 'Liberation Mono', monospace" font-size="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="590" viewBox="0 0 985 590" font-family="Consolas, Liberation Mono, monospace" font-size="14">
 <style>
-  text { white-space: pre; fill: #c9d1d9; }
-  .main { fill: #c9d1d9; }
-  .key { fill: #ffa657; }
-  .value { fill: #a5d6ff; }
-  .cc { fill: #616e7f; }
-  .art { font-size: 8.5px; fill: #c9d1d9; letter-spacing: 0; }
-  .ascii-bg { fill: #30363d; opacity: 0.43; }
-  .subtle { fill: #ffa657; font-size: 12px; letter-spacing: 1px; }
+ text {white-space: pre; fill:#c9d1d9;}
+ .main {fill:#c9d1d9;}
+ .key {fill:#ffa657;}
+ .value {fill:#a5d6ff;}
+ .cc {fill:#616e7f;}
+ .subtle {fill:#ffa657;font-size:12px;letter-spacing:1px;}
+ .art {fill:#c9d1d9;font-size:10px;letter-spacing:0;white-space:pre;}
+ @keyframes showFrame { 0%, 2.24273% {opacity:1} 2.27273%,100% {opacity:0} }
+ .frame {opacity:0;animation-name:showFrame;animation-duration:7.333333s;animation-timing-function:linear;animation-iteration-count:infinite;}
 </style>
 <rect width="985" height="590" rx="15" fill="#161b22"/>
-<text x="24" y="20" class="subtle">VAWT / TURBINE DESIGN</text>
-<g transform="translate(12 0) scale(0.80 1)">
-<text x="0" y="38" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>-:-::::#</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="46" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>=::=*###</tspan><tspan class="ascii-bg">%%%%%%</tspan><tspan>+-::::::##+:-::*</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="54" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>=-+</tspan><tspan class="ascii-bg">%%%%%%%%%%%%</tspan><tspan>#</tspan><tspan class="ascii-bg">%</tspan><tspan>-::::::::::=</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="62" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#=</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%</tspan><tspan>#</tspan><tspan class="ascii-bg">%%%</tspan><tspan>-:::::::+</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="70" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>+=*</tspan><tspan class="ascii-bg">%%%%%%%%%%%%</tspan><tspan>#</tspan><tspan class="ascii-bg">%%%</tspan><tspan>+::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="78" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>+=-=</tspan><tspan class="ascii-bg">%%%%%%%%%%%</tspan><tspan>#</tspan><tspan class="ascii-bg">%</tspan><tspan>+:::::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="86" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#==--#</tspan><tspan class="ascii-bg">%%%%%%%%%</tspan><tspan>=::::::-</tspan><tspan class="ascii-bg">%</tspan><tspan>=:::=</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="94" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>*=-::-</tspan><tspan class="ascii-bg">%%%%%%</tspan><tspan>=:::::::#</tspan><tspan class="ascii-bg">%%%</tspan><tspan>*---*</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="102" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#=---:-</tspan><tspan class="ascii-bg">%%</tspan><tspan>=:::::::</tspan><tspan class="ascii-bg">%%%%%%%</tspan><tspan>#-::</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="110" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>+----:::::::-#</tspan><tspan class="ascii-bg">%%%%%%%%%</tspan><tspan>#::</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="118" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>-:::::::-#</tspan><tspan class="ascii-bg">%%%%%%%%%%%%</tspan><tspan>=:</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="126" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>=:::::::::*</tspan><tspan class="ascii-bg">%%%%%%%%%%%%</tspan><tspan>*-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="134" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>+::::::-::::=:*</tspan><tspan class="ascii-bg">%%%%%%%%%%</tspan><tspan>:-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="142" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>-:::::*</tspan><tspan class="ascii-bg">%%%</tspan><tspan>+::=:::*</tspan><tspan class="ascii-bg">%%%%%%%</tspan><tspan>=--</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="150" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>-::::*</tspan><tspan class="ascii-bg">%%%%%%%</tspan><tspan>*=:::::*</tspan><tspan class="ascii-bg">%%%%</tspan><tspan>---+</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="158" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#-::=</tspan><tspan class="ascii-bg">%%%%%%%%%%%</tspan><tspan>#-:::-=#</tspan><tspan class="ascii-bg">%</tspan><tspan>:-::</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="166" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>--+######****====*#</tspan><tspan class="ascii-bg">%%%</tspan><tspan>+::::*</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="174" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>+#</tspan><tspan class="ascii-bg">%%%%%%%%%%%</tspan><tspan>#*#+-:-*:::::*</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="182" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>*#</tspan><tspan class="ascii-bg">%</tspan><tspan>######*=-::-:::--+*#</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="190" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>+#</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%</tspan><tspan>###+=**</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="198" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#######</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%</tspan><tspan>#-+</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="206" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>*######</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%</tspan><tspan>+-::#</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="214" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>*######</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%</tspan><tspan>--::::=</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="222" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%</tspan><tspan>########</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%</tspan><tspan>#--:::::::</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="230" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%</tspan><tspan>#-=+####</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%</tspan><tspan>#-:::::::::</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="238" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#====--:-:-=+###</tspan><tspan class="ascii-bg">%%%%%%</tspan><tspan>+-:::::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="246" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>+============----:---::::::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="254" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#==================-::::::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="262" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>===-==============-:::::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="270" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>:::::---+++=-=======-:::::-:-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="278" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>:--:::::::::::---====:-:::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="286" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>::::::::::::::::::::-:::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="294" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>::::--::::::::::::::-:::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="302" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>::::::::::::----::::-::::-::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="310" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>::::::::=+=:::::::::::-:::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="318" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>::::::::**-=+:::::::::::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="326" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>-:::-=-:::::-:::::::::::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="334" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>-::::::::::---::::::::::-:::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="342" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>=::::::::::::::::::--:::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="350" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>+---::::::::::::::::-:::::::=</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="358" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>=:::::-----:::::::::-:::::::=</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="366" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>+:=:::::::::::-=---:-::-::::+</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="374" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>+:::::::::::::::::::-:::::::+</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="382" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>*:--=--:::::::::::::-:::::::+</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="390" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>*::::::::-=---::::::-::::-::*</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="398" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#::::::::::::::---=--:-:::::*</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="406" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#-::::::::::::::::::-:::::::*</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="414" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#::::----:::::::::::-:::::--*</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="422" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>:-::::::::::==-::::-:::-:::#</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="430" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>::::::::::::::::::---::::::#</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="438" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>::----:::::::::::::-::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="446" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>::::::::-=--:::::::-:::::::</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="454" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>::::::::::::::----:-:::::::</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="462" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>-=-::::::::::::::::-::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="470" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>::::::----:::::::::-::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="478" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>-::::::::::-----:::-::-:::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="486" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%</tspan><tspan>#</tspan><tspan class="ascii-bg">%%%%%%%%</tspan><tspan>--::::::::::::::::=--:::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="494" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>-:::---::::::::::::-::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="502" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>---:::::::-=:::::::=:::-::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="510" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>*:::::::::::::::----=::::::-</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="518" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>*::::::::::::::::::-:::::::+</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="526" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>+-::::::::::::-:::::=</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="534" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>##*=:::::::=:::+#</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="542" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#</tspan><tspan class="ascii-bg">%%%%%%%%</tspan><tspan>#=::::+</tspan><tspan class="ascii-bg">%%%%%%%</tspan><tspan>#</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="550" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan></text>
-<text x="0" y="558" class="art" xml:space="preserve"><tspan class="ascii-bg">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan><tspan>#</tspan><tspan class="ascii-bg">%%%%%%%%%%%%%%</tspan></text>
+<text x="20" y="33" class="subtle">HELICAL VAWT / ASCII MOTION</text>
+<g id="turbine-animation">
+<g id="static-fallback"><text class="art" xml:space="preserve">
+<tspan x="25" y="70">                              +####=+###*</tspan>
+<tspan x="25" y="80"> :.:::::::::::::::.....   .::*#########*</tspan>
+<tspan x="25" y="90"> =::..............     ..  -##########+</tspan>
+<tspan x="25" y="100"> +::                      +##########*+*-</tspan>
+<tspan x="25" y="110"> +:-                    .*##########+****-</tspan>
+<tspan x="25" y="120"> +:--                  -###########+******-</tspan>
+<tspan x="25" y="130"> =-==.                =**********=:********-</tspan>
+<tspan x="25" y="140"> :-===              :#########%#-  .+******+-</tspan>
+<tspan x="25" y="150">  :----            =########%%#.     +***+++-.</tspan>
+<tspan x="25" y="160">  ==+++-          *#######%@@*        -=++***+</tspan>
+<tspan x="25" y="170">  --++++:       :########%%@-          =+****==</tspan>
+<tspan x="25" y="180">   -+++++:     -########%%*             =+++*++</tspan>
+<tspan x="25" y="190">   --+++++:   +##########=               =++++=-</tspan>
+<tspan x="25" y="200">    -++++**: =++++*****+.                 =+++=*</tspan>
+<tspan x="25" y="210">    .-++***=*#########+                    ===-*</tspan>
+<tspan x="25" y="220">     .-====*#########-                      -==#</tspan>
+<tspan x="25" y="230">      :++=*########*.                       :=-#</tspan>
+<tspan x="25" y="240">       -=#########+                          --#</tspan>
+<tspan x="25" y="250">       :*########=                            -#</tspan>
+<tspan x="25" y="260">       *#######*-=.                           =+</tspan>
+<tspan x="25" y="270">      =+++++++=:+##-                          +:</tspan>
+<tspan x="25" y="280">     +**#####=:=+++*=                        .*.</tspan>
+<tspan x="25" y="290">    -****##*=-****###*.                      *=-</tspan>
+<tspan x="25" y="300">    *****#*= :****#####:                    :*-=</tspan>
+<tspan x="25" y="310">   +******=   .**#######+                   *===</tspan>
+<tspan x="25" y="320">  .******=      **#######*                 +=+++</tspan>
+<tspan x="25" y="330">  =****+=        +#########:              -+++++</tspan>
+<tspan x="25" y="340">  ==++=-          =########%=            .=-===-</tspan>
+<tspan x="25" y="350"> :****=:           :********#*          .+++***:</tspan>
+<tspan x="25" y="360"> -++*=-             .*#######%%:       .++*****</tspan>
+<tspan x="25" y="370"> =++==                +########%-     .++*****-</tspan>
+<tspan x="25" y="380"> ++==                  -#########=   :++******</tspan>
+<tspan x="25" y="390"> =+--                   .*########+ :+*****##:</tspan>
+<tspan x="25" y="400"> --+                      *#####***==*****##+</tspan>
+<tspan x="25" y="410"> .-:                       -+++++=-=++++++++</tspan>
+<tspan x="25" y="420">  +                         :***+=+*#######.</tspan>
+<tspan x="25" y="430"> .=                          .*+=*########:</tspan>
+<tspan x="25" y="440"> --                           .=*########:</tspan>
+<tspan x="25" y="450"> =--                         :+#########=:</tspan>
+<tspan x="25" y="460"> +--.                       -*#########=++:</tspan>
+<tspan x="25" y="470"> +:--                      =##########-===-.</tspan>
+<tspan x="25" y="480"> =:==-                    =++++*****+=+++**=.</tspan>
+<tspan x="25" y="490"> --=:=====-===------:::.-*###*#####*---==-++=</tspan>
+<tspan x="25" y="500">                       =****=+****=</tspan>
+</text></g>
+<g class="frame" style="animation-delay:0.000000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                              +####=+###*</tspan>
+<tspan x="25" y="80"> :.:::::::::::::::.....   .::*#########*</tspan>
+<tspan x="25" y="90"> =::..............     ..  -##########+</tspan>
+<tspan x="25" y="100"> +::                      +##########*+*-</tspan>
+<tspan x="25" y="110"> +:-                    .*##########+****-</tspan>
+<tspan x="25" y="120"> +:--                  -###########+******-</tspan>
+<tspan x="25" y="130"> =-==.                =**********=:********-</tspan>
+<tspan x="25" y="140"> :-===              :#########%#-  .+******+-</tspan>
+<tspan x="25" y="150">  :----            =########%%#.     +***+++-.</tspan>
+<tspan x="25" y="160">  ==+++-          *#######%@@*        -=++***+</tspan>
+<tspan x="25" y="170">  --++++:       :########%%@-          =+****==</tspan>
+<tspan x="25" y="180">   -+++++:     -########%%*             =+++*++</tspan>
+<tspan x="25" y="190">   --+++++:   +##########=               =++++=-</tspan>
+<tspan x="25" y="200">    -++++**: =++++*****+.                 =+++=*</tspan>
+<tspan x="25" y="210">    .-++***=*#########+                    ===-*</tspan>
+<tspan x="25" y="220">     .-====*#########-                      -==#</tspan>
+<tspan x="25" y="230">      :++=*########*.                       :=-#</tspan>
+<tspan x="25" y="240">       -=#########+                          --#</tspan>
+<tspan x="25" y="250">       :*########=                            -#</tspan>
+<tspan x="25" y="260">       *#######*-=.                           =+</tspan>
+<tspan x="25" y="270">      =+++++++=:+##-                          +:</tspan>
+<tspan x="25" y="280">     +**#####=:=+++*=                        .*.</tspan>
+<tspan x="25" y="290">    -****##*=-****###*.                      *=-</tspan>
+<tspan x="25" y="300">    *****#*= :****#####:                    :*-=</tspan>
+<tspan x="25" y="310">   +******=   .**#######+                   *===</tspan>
+<tspan x="25" y="320">  .******=      **#######*                 +=+++</tspan>
+<tspan x="25" y="330">  =****+=        +#########:              -+++++</tspan>
+<tspan x="25" y="340">  ==++=-          =########%=            .=-===-</tspan>
+<tspan x="25" y="350"> :****=:           :********#*          .+++***:</tspan>
+<tspan x="25" y="360"> -++*=-             .*#######%%:       .++*****</tspan>
+<tspan x="25" y="370"> =++==                +########%-     .++*****-</tspan>
+<tspan x="25" y="380"> ++==                  -#########=   :++******</tspan>
+<tspan x="25" y="390"> =+--                   .*########+ :+*****##:</tspan>
+<tspan x="25" y="400"> --+                      *#####***==*****##+</tspan>
+<tspan x="25" y="410"> .-:                       -+++++=-=++++++++</tspan>
+<tspan x="25" y="420">  +                         :***+=+*#######.</tspan>
+<tspan x="25" y="430"> .=                          .*+=*########:</tspan>
+<tspan x="25" y="440"> --                           .=*########:</tspan>
+<tspan x="25" y="450"> =--                         :+#########=:</tspan>
+<tspan x="25" y="460"> +--.                       -*#########=++:</tspan>
+<tspan x="25" y="470"> +:--                      =##########-===-.</tspan>
+<tspan x="25" y="480"> =:==-                    =++++*****+=+++**=.</tspan>
+<tspan x="25" y="490"> --=:=====-===------:::.-*###*#####*---==-++=</tspan>
+<tspan x="25" y="500">                       =****=+****=</tspan>
+</text>
 </g>
-<text x="79" y="583" class="subtle">CFD / OPTIMIZATION</text>
+<g class="frame" style="animation-delay:0.166667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                              +####=+###*</tspan>
+<tspan x="25" y="80"> :.:::::::::::::::.....   ..:*#########*</tspan>
+<tspan x="25" y="90"> =::.............      ..  -*#########+</tspan>
+<tspan x="25" y="100"> +::                      +##########*+*-</tspan>
+<tspan x="25" y="110"> +:-                    .*##########+****-</tspan>
+<tspan x="25" y="120"> +:--                  -###########=******-</tspan>
+<tspan x="25" y="130"> =-==.                =**********=:********-</tspan>
+<tspan x="25" y="140"> :-===              :#########%#-  .+******+-</tspan>
+<tspan x="25" y="150">  :----            =#######%%%#.     +**++++-.</tspan>
+<tspan x="25" y="160">  ===++-          *#######%@@*        -=++***+</tspan>
+<tspan x="25" y="170">  --++++:       :########%%@-          =++***==</tspan>
+<tspan x="25" y="180">   -+++++:     -########%%*             =+++*++</tspan>
+<tspan x="25" y="190">   --+++++:   +##########=               =++++=-</tspan>
+<tspan x="25" y="200">    -++++**: =++++*****+.                 =+++=*</tspan>
+<tspan x="25" y="210">    .-+++**=*#########+                    ===-*</tspan>
+<tspan x="25" y="220">     .-====*#########-                      -=-#</tspan>
+<tspan x="25" y="230">      :++=#########*.                       :=-#</tspan>
+<tspan x="25" y="240">       -=#########+                          --#</tspan>
+<tspan x="25" y="250">       :*########-                            -#</tspan>
+<tspan x="25" y="260">       **######*-=.                           =+</tspan>
+<tspan x="25" y="270">      =+++++++=:+##-                          +:</tspan>
+<tspan x="25" y="280">     +***####=:=+++*=                        .*.</tspan>
+<tspan x="25" y="290">    -****##*=-+***###*                       *=-</tspan>
+<tspan x="25" y="300">    *****#*= :****#####:                    :*-=</tspan>
+<tspan x="25" y="310">   +******=   .***######=                   *-==</tspan>
+<tspan x="25" y="320">  .******=      **#######*                 +=+++</tspan>
+<tspan x="25" y="330">  =****+=        +#########:              -+++++</tspan>
+<tspan x="25" y="340">  ===+=-          =########%=            .=-===-</tspan>
+<tspan x="25" y="350"> :+***=:           :********#*          .++****:</tspan>
+<tspan x="25" y="360"> -++*=-             .*#######%%:       .++*****</tspan>
+<tspan x="25" y="370"> =++==                +########%-     .++*****-</tspan>
+<tspan x="25" y="380"> ++==                  -#########=   .++******</tspan>
+<tspan x="25" y="390"> =+--                   .*#######*+ :+*******:</tspan>
+<tspan x="25" y="400"> --+                      *####****==*****##+</tspan>
+<tspan x="25" y="410"> .-:                       -+++++=-=++++++++</tspan>
+<tspan x="25" y="420">  +                         :***+=+**######.</tspan>
+<tspan x="25" y="430"> .=                          .*+=**#######:</tspan>
+<tspan x="25" y="440"> --                           .=*########:</tspan>
+<tspan x="25" y="450"> =--                         :+#########=:</tspan>
+<tspan x="25" y="460"> +--.                       -*#########=++:</tspan>
+<tspan x="25" y="470"> +:--                      =##########-===-.</tspan>
+<tspan x="25" y="480"> =:==-                    =+++******+=++++*=.</tspan>
+<tspan x="25" y="490"> --=:=====---=------:::.-*###*#####*---==-++=</tspan>
+<tspan x="25" y="500">                       =****=+****=</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:0.333333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                  -#####+*%%@%.</tspan>
+<tspan x="25" y="80">                 +######%%@@#</tspan>
+<tspan x="25" y="90">  .:-:-=====----*######%%%%-.--======--:::..--=</tspan>
+<tspan x="25" y="100">   ==-::-.    .########%%*              .--+**+:</tspan>
+<tspan x="25" y="110">   :-+++++:  -#########%=                =++**=+</tspan>
+<tspan x="25" y="120">    -=+++++.=##########:                  =+++=#</tspan>
+<tspan x="25" y="130">     -++++==+++******=                     =+++*.</tspan>
+<tspan x="25" y="140">     :=++=+#########=                       =+=+.</tspan>
+<tspan x="25" y="150">      :==+########*:                         -:+.</tspan>
+<tspan x="25" y="160">       :+########+.                          ::#</tspan>
+<tspan x="25" y="170">       =########=.                            :#</tspan>
+<tspan x="25" y="180">      -########--*                            -+</tspan>
+<tspan x="25" y="190">     .*######*-=***:                          *:</tspan>
+<tspan x="25" y="200">     +++++++=:=***##=                        :*:</tspan>
+<tspan x="25" y="210">    =***###+-+****###*                       +:-</tspan>
+<tspan x="25" y="220">   .****##+- :==++++**+                     =+==</tspan>
+<tspan x="25" y="230">   +****#=-   :***######=                  .*==+</tspan>
+<tspan x="25" y="240">  .*****=-     .**#######*                 *=+++</tspan>
+<tspan x="25" y="250">  =****=-        *#########.              *=++++</tspan>
+<tspan x="25" y="260">  ****+=          +########%-            +=++++=</tspan>
+<tspan x="25" y="270"> .+++=-            -#######%%*          --====+:</tspan>
+<tspan x="25" y="280"> :+++=.             :*******###        ==+****+</tspan>
+<tspan x="25" y="290"> -+*=-                *#######%%:     ==******:</tspan>
+<tspan x="25" y="300"> -+=+                  =#########=   =+******+</tspan>
+<tspan x="25" y="310"> -==:                   :#########= =+*******</tspan>
+<tspan x="25" y="320"> :-+                      *######*+=******##:</tspan>
+<tspan x="25" y="330">  =:                       +####*=+*****###=</tspan>
+<tspan x="25" y="340">  =                         -##*-=++++++++=</tspan>
+<tspan x="25" y="350">  +                           --*########+</tspan>
+<tspan x="25" y="360"> :-.                          =*########*</tspan>
+<tspan x="25" y="370"> ---                        .+#########*=-</tspan>
+<tspan x="25" y="380"> =--:                      :*#########++*+-</tspan>
+<tspan x="25" y="390"> =-==.                    =##########+++**+-</tspan>
+<tspan x="25" y="400"> --===                   *##########=++++**=:</tspan>
+<tspan x="25" y="410"> .----:                .++********+. -======-</tspan>
+<tspan x="25" y="420">  ==+++:              =##########*    =+++*+==</tspan>
+<tspan x="25" y="430">  =-++++:            *##########=      =+++++=:</tspan>
+<tspan x="25" y="440">  :-+++++:         :#########%%:        =++++=+</tspan>
+<tspan x="25" y="450">   ==+++**:       +########%%#           =++++=.</tspan>
+<tspan x="25" y="460">   .-++****:    .*#######%%%=             =+++==</tspan>
+<tspan x="25" y="470">    :-===+++:  -#########%#.               -==-*</tspan>
+<tspan x="25" y="480">     -+***+++--+*********=                 :=+=*</tspan>
+<tspan x="25" y="490">      -+++-:-*###*######- .....:::::::------+==*.</tspan>
+<tspan x="25" y="500">            +++++==****</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:0.500000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">     :-:-+*+-::.</tspan>
+<tspan x="25" y="80">    +*#**#+- ..::-====--:. ..::::::---------:*-</tspan>
+<tspan x="25" y="90">   :***##+-          :.:-=.:......          *===-</tspan>
+<tspan x="25" y="100">   +****+=     ---:-::---.                 ===++-</tspan>
+<tspan x="25" y="110">  .****+=       ++===****+                -+++++:</tspan>
+<tspan x="25" y="120">  -****=.        =********+.             :+++++*.</tspan>
+<tspan x="25" y="130">  +***=-          -*********-           .==++**+</tspan>
+<tspan x="25" y="140">  ==+--            :********#*         :=++==++:</tspan>
+<tspan x="25" y="150">  **+=              .******##%%:      -=*******</tspan>
+<tspan x="25" y="160">  ++=:                =++++++**#-    -+*******:</tspan>
+<tspan x="25" y="170">  +=+                  -**#######+  =+*******=</tspan>
+<tspan x="25" y="180">  +=:                   :*********==********+</tspan>
+<tspan x="25" y="190">  -+                      +###***==*******#*</tspan>
+<tspan x="25" y="200">  --                       =###*-=+++++++++</tspan>
+<tspan x="25" y="210">  -.                        :*+=******###*</tspan>
+<tspan x="25" y="220">  +.                         .=***######*</tspan>
+<tspan x="25" y="230">  +:                        .+#########*-</tspan>
+<tspan x="25" y="240">  =-:                      :*#########*+*=</tspan>
+<tspan x="25" y="250">  =--                     =##########++***=</tspan>
+<tspan x="25" y="260">  =-=-                   *##########++*****=</tspan>
+<tspan x="25" y="270">  +-==:                :**********+ =******+=</tspan>
+<tspan x="25" y="280">  =:---               +##########+   -==++++-:</tspan>
+<tspan x="25" y="290">  --==++            .*##########-     :******=:</tspan>
+<tspan x="25" y="300">   -=++++          =########%%#.       :*****++</tspan>
+<tspan x="25" y="310">   =-++++=        +########%@*          :*****=-</tspan>
+<tspan x="25" y="320">   .-++++*=     .########%%%-            :+***=*</tspan>
+<tspan x="25" y="330">    -=++++*=   -#########%*               -+**++.</tspan>
+<tspan x="25" y="340">     -=++++++ -++********-                 -====:</tspan>
+<tspan x="25" y="350">      -+++++-*##########.                   =+++=</tspan>
+<tspan x="25" y="360">      .=+++=*#########+                      ++++</tspan>
+<tspan x="25" y="370">       :++=##########-                       :+=+</tspan>
+<tspan x="25" y="380">        :=#########*:                         =+=</tspan>
+<tspan x="25" y="390">        :#########+.                          :+-</tspan>
+<tspan x="25" y="400">       .#########=-*                           #</tspan>
+<tspan x="25" y="410">       +++++***+:-+++.                        .*</tspan>
+<tspan x="25" y="420">      *#######*-=****#=                       +=</tspan>
+<tspan x="25" y="430">     +#######+-+*******+                      #-:</tspan>
+<tspan x="25" y="440">    :*######=. =*********.                   +==-</tspan>
+<tspan x="25" y="450">    ***###*=.   -++*******-                 .*==-</tspan>
+<tspan x="25" y="460">   =***##*=      :++*******+                *=++-</tspan>
+<tspan x="25" y="470">   ******=         =+++++++++              +=+++:</tspan>
+<tspan x="25" y="480">  :++++=-           =**=----+*-           -=====</tspan>
+<tspan x="25" y="490">  +*+**=:......::::::==---=-=++-::...... :+++=**</tspan>
+<tspan x="25" y="500">  ...-:.............      .....::::::---:=:-:.:.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:0.666667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">     :-:.                                .--:</tspan>
+<tspan x="25" y="80">  -*-*=-.---==++++==---::. :::----=======++++-**</tspan>
+<tspan x="25" y="90">  +**==                .--...          :=+*****=</tspan>
+<tspan x="25" y="100">  +*+=.              --::..-===       :=*******</tspan>
+<tspan x="25" y="110">  +*==               .++===**#%#.    -=*******-</tspan>
+<tspan x="25" y="120">  +=+                  +*******##:  -+*******+</tspan>
+<tspan x="25" y="130">  +=-                   =*********:-=+++++***</tspan>
+<tspan x="25" y="140">  -=                     :*******==********+</tspan>
+<tspan x="25" y="150">  .+                       +****-+******###.</tspan>
+<tspan x="25" y="160">  ::                        -+=-*****#####.</tspan>
+<tspan x="25" y="170">  =:                         :=****#####*.</tspan>
+<tspan x="25" y="180">  +:                         +*########*-</tspan>
+<tspan x="25" y="190">  +::                      :*#########*+*-</tspan>
+<tspan x="25" y="200">  +:=                     -+++++++++*=+***-</tspan>
+<tspan x="25" y="210">  =:--                   *##########++*****-</tspan>
+<tspan x="25" y="220">  +-=-.                -##########*.====+++=:</tspan>
+<tspan x="25" y="230">  =-===               +##########+   +******+-</tspan>
+<tspan x="25" y="240">  :-==+=            .*#########%-     =******=.</tspan>
+<tspan x="25" y="250">   ==+++=          =########%%%.       =*****++</tspan>
+<tspan x="25" y="260">   =-++++-        +#######%%@*          -*****=-</tspan>
+<tspan x="25" y="270">    -+++++-     .+++*******#:            -****+*</tspan>
+<tspan x="25" y="280">    :-=====:   -#########%*               -=====.</tspan>
+<tspan x="25" y="290">     -++++**- =##########=                 =++*==</tspan>
+<tspan x="25" y="300">     .-+++**+*##########:                   +++=*</tspan>
+<tspan x="25" y="310">      :=+++=*#########+                     .++=#</tspan>
+<tspan x="25" y="320">       :++=*#########-                       -+=#</tspan>
+<tspan x="25" y="330">        :=*########*:                         ==*</tspan>
+<tspan x="25" y="340">         ++++*****=                           .--</tspan>
+<tspan x="25" y="350">        *########=-=                           *:</tspan>
+<tspan x="25" y="360">       *#######*-=*#*                          #</tspan>
+<tspan x="25" y="370">      +#######*-=***#*:                       -+.</tspan>
+<tspan x="25" y="380">     =#######+-+****###=                      #--</tspan>
+<tspan x="25" y="390">    .**#####=. +*****###+                    =+==</tspan>
+<tspan x="25" y="400">    ***####=.   +****####*.                  #-++</tspan>
+<tspan x="25" y="410">   .++++++-      -+++++++++:                +-===</tspan>
+<tspan x="25" y="420">   +***#*=.       -*****####+              =++++-</tspan>
+<tspan x="25" y="430">  .*****=.         :*****####*            :+=+++:</tspan>
+<tspan x="25" y="440">  -****=:            +*****####:         .*=++**</tspan>
+<tspan x="25" y="450">  +***=-              =******###=        +=+***+</tspan>
+<tspan x="25" y="460">  +**==                :********#=      ++*****:</tspan>
+<tspan x="25" y="470">  +*+=                   =++++++++=    ++*****+</tspan>
+<tspan x="25" y="480">  ==-.                   --=+++==+**  ==++++++.</tspan>
+<tspan x="25" y="490">  -=+:::::::::::::::---.-+=-::::--===++**+***=</tspan>
+<tspan x="25" y="500">   . ...  ..             ...::::-----===-:==-</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:0.833333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">     :-:.                                .--:</tspan>
+<tspan x="25" y="80">  -*-*=-.--===++++==---::. :::----=======++++-**</tspan>
+<tspan x="25" y="90">  +**==                .--...          :=+*****=</tspan>
+<tspan x="25" y="100">  +*+=.              --::..-===       :=*******</tspan>
+<tspan x="25" y="110">  +*==               .++===**#%#.    -=*******-</tspan>
+<tspan x="25" y="120">  +=+                  +*******##:  -+*******+</tspan>
+<tspan x="25" y="130">  +=-                   =*********:-=+++++***</tspan>
+<tspan x="25" y="140">  -=                     :*******==********+</tspan>
+<tspan x="25" y="150">  .+                       +****-+******###.</tspan>
+<tspan x="25" y="160">  ::                        -+=-*****#####.</tspan>
+<tspan x="25" y="170">  =:                         :=****#####*.</tspan>
+<tspan x="25" y="180">  +:                         +*########*-</tspan>
+<tspan x="25" y="190">  +::                      :*#########*+*-</tspan>
+<tspan x="25" y="200">  +:=                     -+++++++++*=+***-</tspan>
+<tspan x="25" y="210">  =:--                   *##########++*****-</tspan>
+<tspan x="25" y="220">  +-=-.                -##########*.====+++=:</tspan>
+<tspan x="25" y="230">  =-===               +##########+   +******+-</tspan>
+<tspan x="25" y="240">  :-==+=            .*#########%-     =******=.</tspan>
+<tspan x="25" y="250">   ==+++=          =########%%%.       =*****++</tspan>
+<tspan x="25" y="260">   =-++++-        +#######%%@*          -*****=-</tspan>
+<tspan x="25" y="270">    -+++++-     .+++*******#:            -****+*</tspan>
+<tspan x="25" y="280">    :-=====:   -#########%*               -=====.</tspan>
+<tspan x="25" y="290">     -++++**- =##########=                 =++*==</tspan>
+<tspan x="25" y="300">     .-+++**+*##########:                   +++=*</tspan>
+<tspan x="25" y="310">      :=+++=*#########+                     .++=#</tspan>
+<tspan x="25" y="320">       :++=*#########-                       -+=#</tspan>
+<tspan x="25" y="330">        :=*########*:                         ==*</tspan>
+<tspan x="25" y="340">         ++++*****=                           .--</tspan>
+<tspan x="25" y="350">        *########=-=                           *:</tspan>
+<tspan x="25" y="360">       *#######*-=*#*                          #</tspan>
+<tspan x="25" y="370">      +#######*-=***#*:                       -+.</tspan>
+<tspan x="25" y="380">     =#######+-+****###=                      #--</tspan>
+<tspan x="25" y="390">    .*######=. +*****###+                    =+==</tspan>
+<tspan x="25" y="400">    ***####=.   +****####*.                  #-++</tspan>
+<tspan x="25" y="410">   .++++++-      -+++++++++:                +-===</tspan>
+<tspan x="25" y="420">   ****#*=.       -*****####+              =++++-</tspan>
+<tspan x="25" y="430">  .*****=.         :*****####*            :+=+++:</tspan>
+<tspan x="25" y="440">  -****=:            +*****####:         .*=++**</tspan>
+<tspan x="25" y="450">  +***=-              =******###=        +=+***+</tspan>
+<tspan x="25" y="460">  +**==                :********#=      ++*****:</tspan>
+<tspan x="25" y="470">  +*+=                   =++++++++=    ++*****+</tspan>
+<tspan x="25" y="480">  ==-.                   --=+++==+**  ==++++++.</tspan>
+<tspan x="25" y="490">  -=+:::::::::::::::---.-+=-::::--===++**+***=</tspan>
+<tspan x="25" y="500">   . ...  ..             ...::::-----===-:==-</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:1.000000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">     :-:.                                .--:</tspan>
+<tspan x="25" y="80">  -*-*=-.--===++++==---::. :::----=======++++-**</tspan>
+<tspan x="25" y="90">  +**==                .--...          :=+*****=</tspan>
+<tspan x="25" y="100">  +*+=.              --::..-===       :=*******</tspan>
+<tspan x="25" y="110">  +*==               .++===**#%#.    -=*******-</tspan>
+<tspan x="25" y="120">  +=+                  +*******##:  -+*******+</tspan>
+<tspan x="25" y="130">  +=-                   =*********:-=+++++***</tspan>
+<tspan x="25" y="140">  -=                     :*******==********+</tspan>
+<tspan x="25" y="150">  .+                       +****-+******###.</tspan>
+<tspan x="25" y="160">  ::                        -+=-*****#####.</tspan>
+<tspan x="25" y="170">  =:                         :=****#####*.</tspan>
+<tspan x="25" y="180">  +:                         +*########*-</tspan>
+<tspan x="25" y="190">  +::                      :*#########*+*-</tspan>
+<tspan x="25" y="200">  +:=                     -+++++++++*=+***-</tspan>
+<tspan x="25" y="210">  =:--                   *##########++*****-</tspan>
+<tspan x="25" y="220">  +-=-.                -##########*.====+++=:</tspan>
+<tspan x="25" y="230">  =-===               +##########+   +******+-</tspan>
+<tspan x="25" y="240">  :-==+=            .*#########%-     =******=.</tspan>
+<tspan x="25" y="250">   ==+++=          =########%%%.       =*****++</tspan>
+<tspan x="25" y="260">   =-++++-        +#######%%@*          -*****=-</tspan>
+<tspan x="25" y="270">    -+++++-     .+++*******#:            -****+*</tspan>
+<tspan x="25" y="280">    :-=====:   -#########%*               -=====.</tspan>
+<tspan x="25" y="290">     -++++**- =##########=                 =++*==</tspan>
+<tspan x="25" y="300">     .-+++**+*##########:                   +++=*</tspan>
+<tspan x="25" y="310">      :=+++=*#########+                     .++=#</tspan>
+<tspan x="25" y="320">       :++=*#########-                       -+=#</tspan>
+<tspan x="25" y="330">        :=*########*:                         ==*</tspan>
+<tspan x="25" y="340">         ++++*****=                           .--</tspan>
+<tspan x="25" y="350">        *########=-=                           *:</tspan>
+<tspan x="25" y="360">       *#######*-=*#*                          #</tspan>
+<tspan x="25" y="370">      +#######*-=***#*:                       -+.</tspan>
+<tspan x="25" y="380">     =#######+-+****###=                      #--</tspan>
+<tspan x="25" y="390">    .*######=. +*****###+                    =+==</tspan>
+<tspan x="25" y="400">    ***####=.   +****####*.                  #-++</tspan>
+<tspan x="25" y="410">   .++++++-      -+++++++++:                +-===</tspan>
+<tspan x="25" y="420">   ****#*=.       -*****####+              =++++-</tspan>
+<tspan x="25" y="430">  .*****=.         :*****####*            :+=+++:</tspan>
+<tspan x="25" y="440">  -****=:            +*****####:         .*=++**</tspan>
+<tspan x="25" y="450">  +***=-              =******###=        +=+***+</tspan>
+<tspan x="25" y="460">  +**==                :********#=      ++*****:</tspan>
+<tspan x="25" y="470">  +*+=                   =++++++++=    ++*****+</tspan>
+<tspan x="25" y="480">  ==-.                   --=+++==+**  ==++++++.</tspan>
+<tspan x="25" y="490">  -=+:::::::::::::::---.-+=-::::--===++**+***=</tspan>
+<tspan x="25" y="500">   . ...  ..             ...::::-----===-:==-</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:1.166667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                                 :+***==*++=</tspan>
+<tspan x="25" y="80">   +-==--------::::::...   .::-:-******###*</tspan>
+<tspan x="25" y="90">  .=                    ... .. =****#####*</tspan>
+<tspan x="25" y="100">  --                         :***#######*</tspan>
+<tspan x="25" y="110">  =-.                       -*#########*:</tspan>
+<tspan x="25" y="120">  +--                      +##########++*-</tspan>
+<tspan x="25" y="130">  +-=.                    +++++++++**=****-</tspan>
+<tspan x="25" y="140">  +-==                  -##########*=******=</tspan>
+<tspan x="25" y="150">  -:--.                +##########+.+******+:</tspan>
+<tspan x="25" y="160">  :-==+              :*##########:   ===++**+-</tspan>
+<tspan x="25" y="170">  .-==+=            =########%%#      =******=-</tspan>
+<tspan x="25" y="180">   =-=++=          *#######%%@*        =******+</tspan>
+<tspan x="25" y="190">   --++++-       :########%%@:          =*****==</tspan>
+<tspan x="25" y="200">    -=++++-     :++++++****=             -****++</tspan>
+<tspan x="25" y="210">    :-+++++-   +##########-               =**++=:</tspan>
+<tspan x="25" y="220">     :-=====: *#########*.                 -==+=*</tspan>
+<tspan x="25" y="230">     .-+++**=*#########+                    =++=#</tspan>
+<tspan x="25" y="240">      :=+++=##########-                      ++=#</tspan>
+<tspan x="25" y="250">       :++=#########*.                       :=-#</tspan>
+<tspan x="25" y="260">        :=#########+                          --#</tspan>
+<tspan x="25" y="270">        .+++++++*+:                            =*</tspan>
+<tspan x="25" y="280">       .*#######*:-:                           --</tspan>
+<tspan x="25" y="290">       *#######+-+*#+                          #.</tspan>
+<tspan x="25" y="300">      +*######=-+**##*                        :*:</tspan>
+<tspan x="25" y="310">     =**#####=-+****###:                      *==</tspan>
+<tspan x="25" y="320">    .***###*= .+****####=                    -+=+</tspan>
+<tspan x="25" y="330">    +***##*-    +***#####*                   *=++</tspan>
+<tspan x="25" y="340">   .+++++=-      +**#######:                +-===</tspan>
+<tspan x="25" y="350">   +*****=        :+++++****=              ==++++</tspan>
+<tspan x="25" y="360">   *****=          :*########*            -++++*-</tspan>
+<tspan x="25" y="370">  :****=.           .*#######%%:         :+++***.</tspan>
+<tspan x="25" y="380">  =***=:              +########%-       :++*****</tspan>
+<tspan x="25" y="390">  +**==                -*########=     :++*****-</tspan>
+<tspan x="25" y="400">  ++=+                  :*########+   :++******</tspan>
+<tspan x="25" y="410">  -=-:                    =++++++++= .-=++++++.</tspan>
+<tspan x="25" y="420">  --+                      =#####***=+*******=</tspan>
+<tspan x="25" y="430">  :=:                       -*****+=+********</tspan>
+<tspan x="25" y="440">   +                         .***+=+******#*</tspan>
+<tspan x="25" y="450">  .=                           +==*****####.</tspan>
+<tspan x="25" y="460">  --.                          .+****#####:</tspan>
+<tspan x="25" y="470">  =-:                         :+**#######-:</tspan>
+<tspan x="25" y="480">  =:-:                  ..   :+++++++***-*+-</tspan>
+<tspan x="25" y="490">  +-:-==---------------:--: =*##**#####=--+=:</tspan>
+<tspan x="25" y="500">                         .:+++++-=++++</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:1.333333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">             -####++####-</tspan>
+<tspan x="25" y="80">            -#########*:.:.</tspan>
+<tspan x="25" y="90">       ..  =#########+  ::::::::-----=========:+*.</tspan>
+<tspan x="25" y="100">       -+-+#########-                        :==+:</tspan>
+<tspan x="25" y="110">       .-+########*:                          ==*.</tspan>
+<tspan x="25" y="120">        =########+.                           .-#</tspan>
+<tspan x="25" y="130">       .*+++++++-:.                            -*</tspan>
+<tspan x="25" y="140">       ***####*--**-                           =:</tspan>
+<tspan x="25" y="150">      +***###*-=****=                          #:</tspan>
+<tspan x="25" y="160">     -****##*--==++++=                        +=-</tspan>
+<tspan x="25" y="170">     ****##+-.+******##:                     :*-=</tspan>
+<tspan x="25" y="180">    =****#+-   +******##=                    *==+</tspan>
+<tspan x="25" y="190">    *****+-     +*****###*                  +=+++.</tspan>
+<tspan x="25" y="200">   -**++=-       =***######:               --=+++</tspan>
+<tspan x="25" y="210">   =++*+=         -*########=             -=++===</tspan>
+<tspan x="25" y="220">  .***+=.          :+++++****=           -=++***-</tspan>
+<tspan x="25" y="230">  :***=-            .*#######%%:        -=+*****</tspan>
+<tspan x="25" y="240">  -**==               +#######%@=      -=******=</tspan>
+<tspan x="25" y="250">  =+==                 =########%+    -+*******</tspan>
+<tspan x="25" y="260">  -+=-                  :*########*  =+*******:</tspan>
+<tspan x="25" y="270">  :-=                     +#######*+-=+++++++=</tspan>
+<tspan x="25" y="280">  .--                      =*+++++==*****###+</tspan>
+<tspan x="25" y="290">   +                        :*##*=+****####*</tspan>
+<tspan x="25" y="300">   +                          **=+***#####*</tspan>
+<tspan x="25" y="310">  :=                           =**#######*</tspan>
+<tspan x="25" y="320">  --:                         +#########*-</tspan>
+<tspan x="25" y="330">  =--                       .*#########*=*=</tspan>
+<tspan x="25" y="340">  -:::                     :+++++++***==+++-</tspan>
+<tspan x="25" y="350">  --==:                   +##########+==++++-</tspan>
+<tspan x="25" y="360">  :-===.                .*##########:-+++***+-</tspan>
+<tspan x="25" y="370">  .-=+++               -##########*   :++****=:</tspan>
+<tspan x="25" y="380">   =-++++             +##########+     :++++++=</tspan>
+<tspan x="25" y="390">   --++++=          :*#########%-       :+++++==</tspan>
+<tspan x="25" y="400">    -+++++=        =#########%%.         :++++++</tspan>
+<tspan x="25" y="410">    ::=====-      =+++*******+            :====--</tspan>
+<tspan x="25" y="420">     -+++***=   .*#########%-              -+++=*</tspan>
+<tspan x="25" y="430">     .-+*****+ -##########*                 =++=*</tspan>
+<tspan x="25" y="440">      :=*****++##########=                   +++*.</tspan>
+<tspan x="25" y="450">       :+***=*##########:                    :==+:</tspan>
+<tspan x="25" y="460">        :+*=*#########+                       ==*:</tspan>
+<tspan x="25" y="470">         :=*#########=                         -*.</tspan>
+<tspan x="25" y="480">         .++++++++*+.                          :*</tspan>
+<tspan x="25" y="490">        .*##**####+:..  .-.....::::::::::::::::-#</tspan>
+<tspan x="25" y="500">        ====-=+++- ..             ...............</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:1.500000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">        =**#=+###=-:.</tspan>
+<tspan x="25" y="80">       -*######*-   .-===-.....................:+</tspan>
+<tspan x="25" y="90">      .**#####*-..:---: --=....................*-</tspan>
+<tspan x="25" y="100">      ****###+-.::--.     .                    #:</tspan>
+<tspan x="25" y="110">     =***###+-=+++***-                        +=-</tspan>
+<tspan x="25" y="120">    .*****#=-:+++++***=                      :*-=</tspan>
+<tspan x="25" y="130">    +****+-:  -+++++***+                     *-==</tspan>
+<tspan x="25" y="140">    ++++*=-    :++*******:                  +---=</tspan>
+<tspan x="25" y="150">   =****==      .********#+                +=++++</tspan>
+<tspan x="25" y="160">   ****+=         =+++++++++              ==+++++</tspan>
+<tspan x="25" y="170">  .***+=           =****#####-           ==++***-</tspan>
+<tspan x="25" y="180">  :+*+=:            -******###+         ==******</tspan>
+<tspan x="25" y="190">  -+*==              :*#######%%.      ==******=</tspan>
+<tspan x="25" y="200">  =+==                 *#######%%:    -=++++++*</tspan>
+<tspan x="25" y="210">  -=-:                  +#########-  =+*******.</tspan>
+<tspan x="25" y="220">  -=+                    :+++++++++-=******##=</tspan>
+<tspan x="25" y="230">  :--                     .*#####*=+*****###+</tspan>
+<tspan x="25" y="240">   +                        +###*=+***#####+</tspan>
+<tspan x="25" y="250">   +                         -#+=**#######*</tspan>
+<tspan x="25" y="260">  :-                          :=*########*</tspan>
+<tspan x="25" y="270">  --:                        .=++++++++*+:</tspan>
+<tspan x="25" y="280">  -::                       -*#########+==:</tspan>
+<tspan x="25" y="290">  =---                     +##########++**+-</tspan>
+<tspan x="25" y="300">  =-==.                  .*##########=++***+-</tspan>
+<tspan x="25" y="310">  --===                 -##########*.+++****=-</tspan>
+<tspan x="25" y="320">  .-====               +##########+   =+*****=.</tspan>
+<tspan x="25" y="330">   ===++-            .*##########-     =+****+=</tspan>
+<tspan x="25" y="340">   -:====:          -*********#*        -++++=-:</tspan>
+<tspan x="25" y="350">   .-=++++:        *########%%*          -++++++</tspan>
+<tspan x="25" y="360">    -=++++*:     :*########%%-            =++++=-</tspan>
+<tspan x="25" y="370">     -+++***-   =#########%*               =+++=*</tspan>
+<tspan x="25" y="380">     :-++****- +##########=                 +++=#</tspan>
+<tspan x="25" y="390">      :=+****=*##########.                  .+++*.</tspan>
+<tspan x="25" y="400">       -++**=*#########+                     -+++:</tspan>
+<tspan x="25" y="410">        :==-++++++****-                       -=+.</tspan>
+<tspan x="25" y="420">         -=#########*:                        :=#.</tspan>
+<tspan x="25" y="430">         -#########+.                          -#</tspan>
+<tspan x="25" y="440">        :#########=-=                          :#</tspan>
+<tspan x="25" y="450">       :**######*-=**+                         ==</tspan>
+<tspan x="25" y="460">      .***#####+-=++***:                       #-</tspan>
+<tspan x="25" y="470">      ****####=:-=====++:                     -+-</tspan>
+<tspan x="25" y="480">     =+++++++-  ++***++=.:.                   *:-</tspan>
+<tspan x="25" y="490">    :**+*##*-.  .-===---:--::::::::::::......=+-=.</tspan>
+<tspan x="25" y="500">    :--:-==: .........       ......::::::::::=.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:1.666667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">        =**#=+###=-:.</tspan>
+<tspan x="25" y="80">       -*######*-   .-===-.....................:+</tspan>
+<tspan x="25" y="90">      .**#####*-..:---: --=....................*-</tspan>
+<tspan x="25" y="100">      ****###+-.::--.     .                    #:</tspan>
+<tspan x="25" y="110">     =***###+-=++++**-                        +=-</tspan>
+<tspan x="25" y="120">    .*****#=-:+++++***=                      :*-=</tspan>
+<tspan x="25" y="130">    +****+-:  -+++++***+                     *-==</tspan>
+<tspan x="25" y="140">    ++++*=-    :++*******:                  +---=</tspan>
+<tspan x="25" y="150">   =****==      .********#+                +=++++</tspan>
+<tspan x="25" y="160">   ****+=         =+++++++++              ==+++++</tspan>
+<tspan x="25" y="170">  .***+=           =****#####-           ==++***-</tspan>
+<tspan x="25" y="180">  :+*+=:            -******###+         ==******</tspan>
+<tspan x="25" y="190">  -+*==              :*#######%%.      ==******=</tspan>
+<tspan x="25" y="200">  =+==                 *#######%%:    -=++++++*</tspan>
+<tspan x="25" y="210">  -=-:                  +#########-  =+*******.</tspan>
+<tspan x="25" y="220">  -=+                    :+++++++++-=******##=</tspan>
+<tspan x="25" y="230">  :--                     .*#####*=+*****###+</tspan>
+<tspan x="25" y="240">   +                        +###*=+***#####+</tspan>
+<tspan x="25" y="250">   +                         -#+=**#######*</tspan>
+<tspan x="25" y="260">  :-                          :=*########*</tspan>
+<tspan x="25" y="270">  --:                        .=++++++++*+:</tspan>
+<tspan x="25" y="280">  -::                       -*#########+==:</tspan>
+<tspan x="25" y="290">  =---                     +##########++**+-</tspan>
+<tspan x="25" y="300">  =-==.                  .*##########=++***+-</tspan>
+<tspan x="25" y="310">  --===                 -##########*.+++****=-</tspan>
+<tspan x="25" y="320">  .-====               +##########+   =+*****=.</tspan>
+<tspan x="25" y="330">   ===++-            .*##########-     =+****+=</tspan>
+<tspan x="25" y="340">   -:====:          -*********#*        -++++=-:</tspan>
+<tspan x="25" y="350">   .-=++++:        *########%%*          -++++++</tspan>
+<tspan x="25" y="360">    -=++++*:     :*########%%-            =++++=-</tspan>
+<tspan x="25" y="370">     -+++***-   =#########%*               =+++=*</tspan>
+<tspan x="25" y="380">     :-++****- +##########=                 +++=#</tspan>
+<tspan x="25" y="390">      :=+****=*##########.                  .+++*.</tspan>
+<tspan x="25" y="400">       -++**=*#########+                     -+++:</tspan>
+<tspan x="25" y="410">        :==-++++++****-                       -=+.</tspan>
+<tspan x="25" y="420">         -=#########*:                        :=#.</tspan>
+<tspan x="25" y="430">         -#########+                           -#</tspan>
+<tspan x="25" y="440">        :#########=-=                          :#</tspan>
+<tspan x="25" y="450">       :**######*-=**+                         ==</tspan>
+<tspan x="25" y="460">      .***#####+-=++***:                       #-</tspan>
+<tspan x="25" y="470">      ****####=:-=====++:                     -+-</tspan>
+<tspan x="25" y="480">     =+++++++-  ++***++=.:.                   *:-</tspan>
+<tspan x="25" y="490">    :**+*##*-.  .-===---:--::::::::::::......=+-=.</tspan>
+<tspan x="25" y="500">    :--:-==: .........       ......::::::::::=.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:1.833333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">        =**#=+###=-:.</tspan>
+<tspan x="25" y="80">       -*######*-   .-===-.....................:+</tspan>
+<tspan x="25" y="90">      .**#####*-..:---: --=....................*-</tspan>
+<tspan x="25" y="100">      ****###+-.::--.     .                    #:</tspan>
+<tspan x="25" y="110">     =***###+-=++++**-                        +=-</tspan>
+<tspan x="25" y="120">    .*****#=-:+++++***=                      :*-=</tspan>
+<tspan x="25" y="130">    +****+-:  -+++++***+                     *-==</tspan>
+<tspan x="25" y="140">    ++++*=-    :++*******:                  +---=</tspan>
+<tspan x="25" y="150">   =****==      .********#+                +=++++</tspan>
+<tspan x="25" y="160">   ****+=         =+++++++++              ==+++++</tspan>
+<tspan x="25" y="170">  .***+=           =****#####-           ==++***-</tspan>
+<tspan x="25" y="180">  :+*+=:            -******###+         ==******</tspan>
+<tspan x="25" y="190">  -+*==              :*#######%%.      ==******=</tspan>
+<tspan x="25" y="200">  =+==                 *#######%%:    -=++++++*</tspan>
+<tspan x="25" y="210">  -=-:                  +#########-  =+*******.</tspan>
+<tspan x="25" y="220">  -=+                    :+++++++++-=******##=</tspan>
+<tspan x="25" y="230">  :--                     .*#####*=+*****###+</tspan>
+<tspan x="25" y="240">   +                        +###*=+***#####+</tspan>
+<tspan x="25" y="250">   +                         -#+=**#######*</tspan>
+<tspan x="25" y="260">  :-                          :=*########*</tspan>
+<tspan x="25" y="270">  --:                        .=++++++++*+:</tspan>
+<tspan x="25" y="280">  -::                       -*#########+==:</tspan>
+<tspan x="25" y="290">  =---                     +##########++**+-</tspan>
+<tspan x="25" y="300">  =-==.                  .*##########=++***+-</tspan>
+<tspan x="25" y="310">  --===                 -##########*.+++****=-</tspan>
+<tspan x="25" y="320">  .-====               +##########+   =+*****=.</tspan>
+<tspan x="25" y="330">   ===++-            .*##########-     =+****+=</tspan>
+<tspan x="25" y="340">   -:====:          -*********#*        -++++=-:</tspan>
+<tspan x="25" y="350">   .-=++++:        *########%%*          -++++++</tspan>
+<tspan x="25" y="360">    -=++++*:     :*########%%-            =++++=-</tspan>
+<tspan x="25" y="370">     -+++***-   =#########%*               =+++=*</tspan>
+<tspan x="25" y="380">     :-++****- +##########=                 +++=#</tspan>
+<tspan x="25" y="390">      :=+****=*##########.                  .+++*.</tspan>
+<tspan x="25" y="400">       -++**=*#########+                     -+++:</tspan>
+<tspan x="25" y="410">        :==-++++++****-                       -=+.</tspan>
+<tspan x="25" y="420">         -=#########*:                        :=#.</tspan>
+<tspan x="25" y="430">         -#########+                           -#</tspan>
+<tspan x="25" y="440">        :#########=-=                          :#</tspan>
+<tspan x="25" y="450">       :**######*-=**+                         ==</tspan>
+<tspan x="25" y="460">      .***#####+-=++***:                       #-</tspan>
+<tspan x="25" y="470">      ****####=:-=====++:                     -+-</tspan>
+<tspan x="25" y="480">     =+++++++-  ++***++=.:.                   *:-</tspan>
+<tspan x="25" y="490">    :**+*##*-.  .-===---:--::::::::::::......=+-=.</tspan>
+<tspan x="25" y="500">    :--:-==: .........       ......::::::::::=.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:2.000000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">      -==-*##=--:..</tspan>
+<tspan x="25" y="80">     +****##=:  ..:-====-:..::::::------------*-</tspan>
+<tspan x="25" y="90">    :****#*=:       .::.:== .....            =+==</tspan>
+<tspan x="25" y="100">    +*****=:  -==:-::---.                   .*===</tspan>
+<tspan x="25" y="110">   :*****=:    -++==+****.                  *==++</tspan>
+<tspan x="25" y="120">   +****=-      :+********-                +=++++</tspan>
+<tspan x="25" y="130">   ****=-         +********+              =-+++++</tspan>
+<tspan x="25" y="140">  .==+-=           +*********.           +=+====:</tspan>
+<tspan x="25" y="150">  -+*+=.            =*****###%=         ==+*****</tspan>
+<tspan x="25" y="160">  =++=-              :++++++**#+       =+******-</tspan>
+<tspan x="25" y="170">  =+=+                .*****###%#.   .=+*******</tspan>
+<tspan x="25" y="180">  =+=:                  +******###: .=********</tspan>
+<tspan x="25" y="190">  --+                    =#********-+*******#:</tspan>
+<tspan x="25" y="200">  :=:                     :*####*+-=++++++++-</tspan>
+<tspan x="25" y="210">   =                        ****==*****####=</tspan>
+<tspan x="25" y="220">  .=                         -+-+**#######=</tspan>
+<tspan x="25" y="230">  :-                          -**########=</tspan>
+<tspan x="25" y="240">  =-:                        -*#########+:</tspan>
+<tspan x="25" y="250">  =--                       +##########+++-</tspan>
+<tspan x="25" y="260">  =:--                    .*##########=+**+-</tspan>
+<tspan x="25" y="270">  =-==.                  :+++++*****+=*****+-</tspan>
+<tspan x="25" y="280">  ::---                 +##########= =======-.</tspan>
+<tspan x="25" y="290">  .-===-              .*##########:   +******=.</tspan>
+<tspan x="25" y="300">   ====+-            =#########%#      =+****+=</tspan>
+<tspan x="25" y="310">   =-=+++:          *########%%+        =+****=-</tspan>
+<tspan x="25" y="320">   .-+++++:       :########%%@-          =+++*++</tspan>
+<tspan x="25" y="330">    -=++++*.     =########%%#             =++++=-</tspan>
+<tspan x="25" y="340">     -===+++:   =+++*******-               ====-=</tspan>
+<tspan x="25" y="350">     :-++++++:.*##########.                 +++=#</tspan>
+<tspan x="25" y="360">      :++***+=##########+                   .++=*</tspan>
+<tspan x="25" y="370">       -++*++##########-                     -++*.</tspan>
+<tspan x="25" y="380">        -+++#########*.                       ==*.</tspan>
+<tspan x="25" y="390">         -+#########+                         :-#</tspan>
+<tspan x="25" y="400">         +#########-                           -#</tspan>
+<tspan x="25" y="410">        -+++++++*+:=:                          :+</tspan>
+<tspan x="25" y="420">       -*#######+-+*#+                         +-</tspan>
+<tspan x="25" y="430">      :**######=-+*****.                       #-</tspan>
+<tspan x="25" y="440">      ***####*--+*******-                     =+=</tspan>
+<tspan x="25" y="450">     +***###*- .+********=                    #-=</tspan>
+<tspan x="25" y="460">    -****##+-    +++******+                  +===</tspan>
+<tspan x="25" y="470">    *****#+-      -===++++++.               :+=++</tspan>
+<tspan x="25" y="480">   -+++++-:        -****-:=-*=              +-===</tspan>
+<tspan x="25" y="490">   **=**==........::====--=-===:::........ *=+=++</tspan>
+<tspan x="25" y="500">   ::.--: .............   .....::::::::----:-: :.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:2.166667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                               :+***+=*##*:</tspan>
+<tspan x="25" y="80">  =:------------:::::...   :::=******####:</tspan>
+<tspan x="25" y="90">  +.                     :   +***#######.</tspan>
+<tspan x="25" y="100">  +:                       :*#########*+-</tspan>
+<tspan x="25" y="110">  =-:                     =##########*+**=</tspan>
+<tspan x="25" y="120">  =--                    *##########++****=</tspan>
+<tspan x="25" y="130">  +-=-                 :++++++****+=+******=</tspan>
+<tspan x="25" y="140">  +-==:               +##########*  +*******=</tspan>
+<tspan x="25" y="150">  -:---             .*#########%=    =**++++=-</tspan>
+<tspan x="25" y="160">  :-====           -########%%%:      -=++***=-</tspan>
+<tspan x="25" y="170">   -==++-         +#######%%@#         -******+</tspan>
+<tspan x="25" y="180">   =-=+++-      .*#######%%%-           -*****==</tspan>
+<tspan x="25" y="190">   .-+++++-    :#########%#              -++**+*</tspan>
+<tspan x="25" y="200">    --+++++:  -**++******=                -+++++:</tspan>
+<tspan x="25" y="210">     -++++++:+##########:                  =+==-=</tspan>
+<tspan x="25" y="220">     .:====-*#########*                     -=+=*</tspan>
+<tspan x="25" y="230">      :=++=*#########=                       =+=#</tspan>
+<tspan x="25" y="240">       :+=*########*:                        :==#</tspan>
+<tspan x="25" y="250">        :*########+.                          -=*</tspan>
+<tspan x="25" y="260">        *########=.                           .+=</tspan>
+<tspan x="25" y="270">       =+++++*++:-*-                           *.</tspan>
+<tspan x="25" y="280">      =*######*--+++-                         .*</tspan>
+<tspan x="25" y="290">     :*######+-+****#*                        +=:</tspan>
+<tspan x="25" y="300">     ****###+:+*****###:                     .*--</tspan>
+<tspan x="25" y="310">    +****##=: .*****####=                    *-==</tspan>
+<tspan x="25" y="320">   .******=:    +***#####*                  =+=++</tspan>
+<tspan x="25" y="330">   +*****=:      +*########:               .*=++=</tspan>
+<tspan x="25" y="340">   +++++-:        =*########=              +-===:</tspan>
+<tspan x="25" y="350">  -****=-          .++*******+            *=++++.</tspan>
+<tspan x="25" y="360">  +***==            .*#######%%:         +=+++**</tspan>
+<tspan x="25" y="370">  ***==               +########%-       +=++***-</tspan>
+<tspan x="25" y="380">  +*+=.                -#########=     +=+*****</tspan>
+<tspan x="25" y="390">  ++=-                  .*########+   =+******-</tspan>
+<tspan x="25" y="400">  +=+                     *######***.=+*******</tspan>
+<tspan x="25" y="410">  =-:                      -+++++++--==++++++</tspan>
+<tspan x="25" y="420">  :+                        -*##**==********-</tspan>
+<tspan x="25" y="430">  :-                         .***=+********=</tspan>
+<tspan x="25" y="440">  =:                           ==+*****###+</tspan>
+<tspan x="25" y="450">  +:                           -******###+</tspan>
+<tspan x="25" y="460">  +::                         =****#####+=-</tspan>
+<tspan x="25" y="470">  +:-                       .+**#######+-==:</tspan>
+<tspan x="25" y="480">  =-==                  .  :++++++++++=++**=:</tspan>
+<tspan x="25" y="490">  +---===------------::-:.=*##**#####=---==*=.</tspan>
+<tspan x="25" y="500">                        .+****=+****.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:2.333333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                 .*####+*#%@@-</tspan>
+<tspan x="25" y="80">                -########%%#.</tspan>
+<tspan x="25" y="90">   -:::-===----+##########= .::--======---:.-==:</tspan>
+<tspan x="25" y="100">   :-=-:--    *##########:               :--+*=*</tspan>
+<tspan x="25" y="110">    -=+++++. *#########+                  =++++*.</tspan>
+<tspan x="25" y="120">    .-+++++=*#########-                    =++++-</tspan>
+<tspan x="25" y="130">     :=+++-++++++++*+.                      =+++=</tspan>
+<tspan x="25" y="140">      :++=#########+.                       .=+=-</tspan>
+<tspan x="25" y="150">       :=#########=                          :-+-</tspan>
+<tspan x="25" y="160">       .*#######*-                            -*:</tspan>
+<tspan x="25" y="170">       *#######+-=                            .#</tspan>
+<tspan x="25" y="180">      +*######+-+**                           -+</tspan>
+<tspan x="25" y="190">     =**#####=-+****:                         #-</tspan>
+<tspan x="25" y="200">    .+++++++--+******=                       :+-.</tspan>
+<tspan x="25" y="210">    +***##*- =******##+                      +:-.</tspan>
+<tspan x="25" y="220">   -******=   :=++++++++.                   +==+:</tspan>
+<tspan x="25" y="230">   ******=     :****#####=                 -+=++:</tspan>
+<tspan x="25" y="240">  :*****=.      .***######+               .*=+++.</tspan>
+<tspan x="25" y="250">  +****=:         +*########.            .*=+++*</tspan>
+<tspan x="25" y="260">  ****=-           +########%=           ++++**+</tspan>
+<tspan x="25" y="270"> .+==--             -########%#         =-====+:</tspan>
+<tspan x="25" y="280"> .++==               :++++******      .++******</tspan>
+<tspan x="25" y="290"> :++=:                 +#########:   .=+******:</tspan>
+<tspan x="25" y="300"> :+==                   =#########- :=*******=</tspan>
+<tspan x="25" y="310"> :==.                    :*######**==********</tspan>
+<tspan x="25" y="320">  -=                       *####*+=+********.</tspan>
+<tspan x="25" y="330">  =:                        =##*+=*********:</tspan>
+<tspan x="25" y="340">  =                          -*=-++++++++*:</tspan>
+<tspan x="25" y="350">  +.                          :+*****####:</tspan>
+<tspan x="25" y="360"> :=-                         :*****#####=:</tspan>
+<tspan x="25" y="370"> :-=:                       =***#######=++:</tspan>
+<tspan x="25" y="380"> :-==                      +*########*=++*+:</tspan>
+<tspan x="25" y="390"> :-===                   :*#########*=++++*=:</tspan>
+<tspan x="25" y="400"> .===+-                 =##########+ +++++*+=</tspan>
+<tspan x="25" y="410">  ---==.               =++++++++**-   ======--</tspan>
+<tspan x="25" y="420">  =-++++.            :*##########:     ++***+=:</tspan>
+<tspan x="25" y="430">  :-+++++           =##########*        +++++=+</tspan>
+<tspan x="25" y="440">   ==+++*+         *#########%+          +++++=:</tspan>
+<tspan x="25" y="450">   .-++***+      :#########%%-            ++++=+</tspan>
+<tspan x="25" y="460">    -=+*****.   =#########%*              .+++=*</tspan>
+<tspan x="25" y="470">     :=====++. *##########-                :-===:</tspan>
+<tspan x="25" y="480">     .-****++=+++++*****+.                  ====-</tspan>
+<tspan x="25" y="490">      .=++=-=###**#####+..  ....:::::::::----=-+=</tspan>
+<tspan x="25" y="500">           :++++==****-                        .</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:2.500000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                 .*####+*#%@@-</tspan>
+<tspan x="25" y="80">                -########%%#.</tspan>
+<tspan x="25" y="90">   -:::-===----+##########= .::--======---:.-==:</tspan>
+<tspan x="25" y="100">   :-=-:--    *##########:               :--+*=*</tspan>
+<tspan x="25" y="110">    -=+++++. *#########+                  =++++*.</tspan>
+<tspan x="25" y="120">    .-+++++=*#########-                    =++++-</tspan>
+<tspan x="25" y="130">     :=+++-++++++++*+.                      =+++=</tspan>
+<tspan x="25" y="140">      :++=#########+.                       .=+=-</tspan>
+<tspan x="25" y="150">       :=#########=                          :-+-</tspan>
+<tspan x="25" y="160">       .*#######*-                            -*:</tspan>
+<tspan x="25" y="170">       *#######+-=                            .#</tspan>
+<tspan x="25" y="180">      +*######+-+**                           -+</tspan>
+<tspan x="25" y="190">     =**#####=-+****:                         #-</tspan>
+<tspan x="25" y="200">    .+++++++--+******=                       :+-.</tspan>
+<tspan x="25" y="210">    +***##*- =******##+                      +:-.</tspan>
+<tspan x="25" y="220">   -******=   :=++++++++.                   +==+:</tspan>
+<tspan x="25" y="230">   ******=     :****#####=                 -+=++:</tspan>
+<tspan x="25" y="240">  :*****=.      .***######+               .*=+++.</tspan>
+<tspan x="25" y="250">  +****=:         +*########.            .*=+++*</tspan>
+<tspan x="25" y="260">  ****=-           +########%=           ++++**+</tspan>
+<tspan x="25" y="270"> .+==--             -########%#         =-====+:</tspan>
+<tspan x="25" y="280"> .++==               :++++******      .++******</tspan>
+<tspan x="25" y="290"> :++=:                 +#########:   .=+******:</tspan>
+<tspan x="25" y="300"> :+==                   =#########- :=*******=</tspan>
+<tspan x="25" y="310"> :==.                    :*######**==********</tspan>
+<tspan x="25" y="320">  -=                       *####*+=+********.</tspan>
+<tspan x="25" y="330">  =:                        =##*+=*********:</tspan>
+<tspan x="25" y="340">  =                          -*=-++++++++*:</tspan>
+<tspan x="25" y="350">  +.                          :+*****####:</tspan>
+<tspan x="25" y="360"> :=-                         :*****#####=:</tspan>
+<tspan x="25" y="370"> :-=:                       =***#######=++:</tspan>
+<tspan x="25" y="380"> :-==                      +*########*=++*+:</tspan>
+<tspan x="25" y="390"> :-===                   :*#########*=++++*=:</tspan>
+<tspan x="25" y="400"> .===+-                 =##########+ +++++*+=</tspan>
+<tspan x="25" y="410">  ---==.               =++++++++**-   ======--</tspan>
+<tspan x="25" y="420">  =-++++.            :*##########:     ++***+=:</tspan>
+<tspan x="25" y="430">  :-+++++           =##########*        +++++=+</tspan>
+<tspan x="25" y="440">   ==+++*+         *#########%+          +++++=:</tspan>
+<tspan x="25" y="450">   .-++***+      :#########%%-            ++++=+</tspan>
+<tspan x="25" y="460">    -=+*****.   =#########%*              .+++=*</tspan>
+<tspan x="25" y="470">     :=====++. *##########-                :-===:</tspan>
+<tspan x="25" y="480">     .-****++=+++++*****+.                  ====-</tspan>
+<tspan x="25" y="490">      .=++=-=###**#####+ .  ....:::::::::----=-+=</tspan>
+<tspan x="25" y="500">           :++++==****-                        .</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:2.666667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                 .*####+*#%@@-</tspan>
+<tspan x="25" y="80">                -########%%#.</tspan>
+<tspan x="25" y="90">   -:::-===----+##########= .::--======---:.-==:</tspan>
+<tspan x="25" y="100">   :-=-:--    *##########:               :--+*=*</tspan>
+<tspan x="25" y="110">    -=+++++. *#########+                  =++++*.</tspan>
+<tspan x="25" y="120">    .-+++++=*#########-                    =++++-</tspan>
+<tspan x="25" y="130">     :=+++-++++++++*+.                      =+++=</tspan>
+<tspan x="25" y="140">      :++=#########+.                       .=+=-</tspan>
+<tspan x="25" y="150">       :=#########=                          :-+-</tspan>
+<tspan x="25" y="160">       .*#######*-                            -*:</tspan>
+<tspan x="25" y="170">       *#######+-=                            .#</tspan>
+<tspan x="25" y="180">      +*######+-+**                           -+</tspan>
+<tspan x="25" y="190">     =**#####=-+****:                         #-</tspan>
+<tspan x="25" y="200">    .+++++++--+******=                       :+-.</tspan>
+<tspan x="25" y="210">    +***##*- =******##+                      +:-.</tspan>
+<tspan x="25" y="220">   -******=   :=++++++++.                   +==+:</tspan>
+<tspan x="25" y="230">   ******=     :****#####=                 -+=++:</tspan>
+<tspan x="25" y="240">  :*****=.      .***######+               .*=+++.</tspan>
+<tspan x="25" y="250">  +****=:         +*########.            .*=+++*</tspan>
+<tspan x="25" y="260">  ****=-           +########%=           ++++**+</tspan>
+<tspan x="25" y="270"> .+==--             -########%#         =-====+:</tspan>
+<tspan x="25" y="280"> .++==               :++++******      .++******</tspan>
+<tspan x="25" y="290"> :++=:                 +#########:   .=+******:</tspan>
+<tspan x="25" y="300"> :+==                   =#########- :=*******=</tspan>
+<tspan x="25" y="310"> :==.                    :*######**==********</tspan>
+<tspan x="25" y="320">  -=                       *####*+=+********.</tspan>
+<tspan x="25" y="330">  =:                        =##*+=*********:</tspan>
+<tspan x="25" y="340">  =                          -*=-++++++++*:</tspan>
+<tspan x="25" y="350">  +.                          :+*****####:</tspan>
+<tspan x="25" y="360"> :=-                         :*****#####=:</tspan>
+<tspan x="25" y="370"> :-=:                       =***#######=++:</tspan>
+<tspan x="25" y="380"> :-==                      +*########*=++*+:</tspan>
+<tspan x="25" y="390"> :-===                   :*#########*=++++*=:</tspan>
+<tspan x="25" y="400"> .===+-                 =##########+ +++++*+=</tspan>
+<tspan x="25" y="410">  ---==.               =++++++++**-   ======--</tspan>
+<tspan x="25" y="420">  =-++++.            :*##########:     ++***+=:</tspan>
+<tspan x="25" y="430">  :-+++++           =##########*        +++++=+</tspan>
+<tspan x="25" y="440">   ==+++*+         *#########%+          +++++=:</tspan>
+<tspan x="25" y="450">   .-++***+      :#########%%-            ++++=+</tspan>
+<tspan x="25" y="460">    -=+*****.   =#########%*              .+++=*</tspan>
+<tspan x="25" y="470">     :=====++. *##########-                :-===:</tspan>
+<tspan x="25" y="480">     .-****++=+++++*****+.                  ====-</tspan>
+<tspan x="25" y="490">      .=++=-=###**#####+ .  ....:::::::::----=-+=</tspan>
+<tspan x="25" y="500">           :++++==****-                        .</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:2.833333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                 .*####+*#%@@-</tspan>
+<tspan x="25" y="80">                -########%%#.</tspan>
+<tspan x="25" y="90">   -:::-===----+##########= .::--======---:.-==:</tspan>
+<tspan x="25" y="100">   :-=-:--    *##########:               :--+*=*</tspan>
+<tspan x="25" y="110">    -=+++++. *#########+                  =++++*.</tspan>
+<tspan x="25" y="120">    .-+++++=*#########-                    =++++-</tspan>
+<tspan x="25" y="130">     :=+++-++++++++*+.                      =+++=</tspan>
+<tspan x="25" y="140">      :++=#########+.                       .=+=-</tspan>
+<tspan x="25" y="150">       :=#########=                          :-+-</tspan>
+<tspan x="25" y="160">       .*#######*-                            -*:</tspan>
+<tspan x="25" y="170">       *#######+-=                            .#</tspan>
+<tspan x="25" y="180">      +*######+-+**                           -+</tspan>
+<tspan x="25" y="190">     =**#####=-+****:                         #-</tspan>
+<tspan x="25" y="200">    .+++++++--+******=                       :+-.</tspan>
+<tspan x="25" y="210">    +***##*- =******##+                      +:-.</tspan>
+<tspan x="25" y="220">   -******=   :=++++++++.                   +==+:</tspan>
+<tspan x="25" y="230">   ******=     :****#####=                 -+=++:</tspan>
+<tspan x="25" y="240">  :*****=.      .***######+               .*=+++.</tspan>
+<tspan x="25" y="250">  +****=:         +*########.            .*=+++*</tspan>
+<tspan x="25" y="260">  ****=-           +########%=           ++++**+</tspan>
+<tspan x="25" y="270"> .+==--             -########%#         =-====+:</tspan>
+<tspan x="25" y="280"> .++==               :++++******      .++******</tspan>
+<tspan x="25" y="290"> :++=:                 +#########:   .=+******:</tspan>
+<tspan x="25" y="300"> :+==                   =#########- :=*******=</tspan>
+<tspan x="25" y="310"> :==.                    :*######**==********</tspan>
+<tspan x="25" y="320">  -=                       *####*+=+********.</tspan>
+<tspan x="25" y="330">  =:                        =##*+=*********:</tspan>
+<tspan x="25" y="340">  =                          -*=-++++++++*:</tspan>
+<tspan x="25" y="350">  +.                          :+*****####:</tspan>
+<tspan x="25" y="360"> :=-                         :*****#####=:</tspan>
+<tspan x="25" y="370"> :-=:                       =***#######=++:</tspan>
+<tspan x="25" y="380"> :-==                      +*########*=++*+:</tspan>
+<tspan x="25" y="390"> :-===                   :*#########*=++++*=:</tspan>
+<tspan x="25" y="400"> .===+-                 =##########+ +++++*+=</tspan>
+<tspan x="25" y="410">  ---==.               =++++++++**-   ======--</tspan>
+<tspan x="25" y="420">  =-++++.            :*##########:     ++***+=:</tspan>
+<tspan x="25" y="430">  :-+++++           =##########*        +++++=+</tspan>
+<tspan x="25" y="440">   ==+++*+         *#########%+          +++++=:</tspan>
+<tspan x="25" y="450">   .-++***+      :#########%%-            ++++=+</tspan>
+<tspan x="25" y="460">    -=+*****.   =#########%*              .+++=*</tspan>
+<tspan x="25" y="470">     :=====++. *##########-                :-===:</tspan>
+<tspan x="25" y="480">     .-****++=+++++*****+.                  ====-</tspan>
+<tspan x="25" y="490">      .=++=-=###**#####+ .  ....:::::::::----=-+=</tspan>
+<tspan x="25" y="500">           :++++==****-                        .</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:3.000000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">         +**#++###+::.</tspan>
+<tspan x="25" y="80">        +**######=  .:-=-:.............        =</tspan>
+<tspan x="25" y="90">       +***####*----:. ---:...::::::::::::::--.#</tspan>
+<tspan x="25" y="100">      =****###*--.                            -*</tspan>
+<tspan x="25" y="110">     :****###+-=+*-                           +-</tspan>
+<tspan x="25" y="120">     *****##+-=+++*=                         .*-</tspan>
+<tspan x="25" y="130">    =**++++--=++++**+                        *==</tspan>
+<tspan x="25" y="140">   .+++**#=:.++++*****.                     :=--</tspan>
+<tspan x="25" y="150">   +*****=:   ++*******-                    *=++.</tspan>
+<tspan x="25" y="160">  .*****=-     ==+++++++=                  *=+++.</tspan>
+<tspan x="25" y="170">  =****=-       =*********.               +=+++*</tspan>
+<tspan x="25" y="180">  ****==         -*********-             +=++**+</tspan>
+<tspan x="25" y="190"> .***+=           :******###+           ==+****-</tspan>
+<tspan x="25" y="200"> :+*+-.            .**#######%:        --==++**</tspan>
+<tspan x="25" y="210"> :==--               +*######%%=      =+*****+:</tspan>
+<tspan x="25" y="220"> -+=+                 -+++++++**=    =+*******</tspan>
+<tspan x="25" y="230"> -==:                  :*########*  =+*******.</tspan>
+<tspan x="25" y="240"> :-+                     *#######*==*******#-</tspan>
+<tspan x="25" y="250"> .-:                      =####**=+*******#=</tspan>
+<tspan x="25" y="260">  +                        :***+=+*****###+</tspan>
+<tspan x="25" y="270">  =                          *=-+++++++++=</tspan>
+<tspan x="25" y="280"> :-                          .+***######+</tspan>
+<tspan x="25" y="290"> ---                        :**########+-</tspan>
+<tspan x="25" y="300"> =-=.                      -*#########++*=</tspan>
+<tspan x="25" y="310"> =-==                     +*#########=++**=</tspan>
+<tspan x="25" y="320"> --==-                  .*#########*=+++***=</tspan>
+<tspan x="25" y="330"> :-=++.                -##########* -+++***+=</tspan>
+<tspan x="25" y="340">  -====               =**********-   :++++++-:</tspan>
+<tspan x="25" y="350">  ==+++=            :*##########:     .++++++=</tspan>
+<tspan x="25" y="360">  --++++=          =#########%#        :++++*=+</tspan>
+<tspan x="25" y="370">   -++++*=        *########%%+          :++++++</tspan>
+<tspan x="25" y="380">   --+++**=     :#########%%:            :++++==</tspan>
+<tspan x="25" y="390">    -+++***+   =##########+               -+++=*</tspan>
+<tspan x="25" y="400">    .-++****+ +##########-                 =++=*</tspan>
+<tspan x="25" y="410">     .-=====-+++++++***+.                   --==.</tspan>
+<tspan x="25" y="420">      :++++=*#########+                     :==+:</tspan>
+<tspan x="25" y="430">       :++=##########-                       -=+:</tspan>
+<tspan x="25" y="440">        :=#########*.                         -*.</tspan>
+<tspan x="25" y="450">        -**#######+                           :#</tspan>
+<tspan x="25" y="460">       -#########=-+.                         :*</tspan>
+<tspan x="25" y="470">      :*#######*--===.                        ==</tspan>
+<tspan x="25" y="480">     .++++++++=:=+===+-  .                    *:</tspan>
+<tspan x="25" y="490">     ***+*###=:----:::.:--:...:::::::::::::::-+:</tspan>
+<tspan x="25" y="500">    :-=-:=++:.........       .........::::::.-.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:3.166667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                                    -+**=-=--</tspan>
+<tspan x="25" y="80"> .:+-++++++++====----:::  ::-----:-=******##*</tspan>
+<tspan x="25" y="90"> --=                   -::..      =*****###*</tspan>
+<tspan x="25" y="100"> :=.                     ..::::-:+**#######</tspan>
+<tspan x="25" y="110">  +                       ++==-=**########.</tspan>
+<tspan x="25" y="120"> :=                        -+==*#########.</tspan>
+<tspan x="25" y="130"> --                         .=+++++****+</tspan>
+<tspan x="25" y="140"> =:                        :*#########*-</tspan>
+<tspan x="25" y="150"> +::                      =##########*+*=</tspan>
+<tspan x="25" y="160"> +:-.                    *##########+===+-</tspan>
+<tspan x="25" y="170"> +-==                  :###########=++++**=</tspan>
+<tspan x="25" y="180"> =-==-                +##########* =++++***=</tspan>
+<tspan x="25" y="190"> :-==+.             .*##########=   =+++***+=</tspan>
+<tspan x="25" y="200"> .-=+++            :++++*******.     -++****=-</tspan>
+<tspan x="25" y="210">  =-++++          +#######%%@#        :++++++=</tspan>
+<tspan x="25" y="220">  :-====-       .*#######%%@=          .=====-=</tspan>
+<tspan x="25" y="230">   -++++*=     -#########%#             :++++++.</tspan>
+<tspan x="25" y="240">   :-+++**=   =##########=               :++++==</tspan>
+<tspan x="25" y="250">    -+++***= +##########:                 -+++=*</tspan>
+<tspan x="25" y="260">     -++***=*#########*                    =++=#</tspan>
+<tspan x="25" y="270">     .=***=++++++****-                      =+=#</tspan>
+<tspan x="25" y="280">      .===#########*:                        -:*</tspan>
+<tspan x="25" y="290">       :=*########+.                         --#</tspan>
+<tspan x="25" y="300">       .*########=                            -*</tspan>
+<tspan x="25" y="310">      .**######*-=+                           ==</tspan>
+<tspan x="25" y="320">      ***#####+-+*#*                          #.</tspan>
+<tspan x="25" y="330">     +***####+-+**###:                       :*:</tspan>
+<tspan x="25" y="340">    :+++++++-:+***####=                      +::</tspan>
+<tspan x="25" y="350">   .*****#*=. =+++++***+                    :+-=</tspan>
+<tspan x="25" y="360">   +******=    =**#######:                  *=++</tspan>
+<tspan x="25" y="370">  :******=      -**#######=                +=+++</tspan>
+<tspan x="25" y="380">  +****+=        :*########*              -+++++</tspan>
+<tspan x="25" y="390">  ****+=.         .*#########.           :+++**=</tspan>
+<tspan x="25" y="400"> :****=:            +########%-         .++****:</tspan>
+<tspan x="25" y="410"> -+++--              -+++++++**-        ====+++</tspan>
+<tspan x="25" y="420"> =++==                :*########+      ++*****-</tspan>
+<tspan x="25" y="430"> ++==                   **#######*    ++******</tspan>
+<tspan x="25" y="440"> =+=-                    =*****#***..+******#:</tspan>
+<tspan x="25" y="450"> --+                      -********==*****##+</tspan>
+<tspan x="25" y="460"> :=:                       .+****+=+***####*</tspan>
+<tspan x="25" y="470">  +                          -====+**######.</tspan>
+<tspan x="25" y="480"> .-                    .:.    -=-=++++++++.</tspan>
+<tspan x="25" y="490"> --.------------------:==-:   .=*##**####-</tspan>
+<tspan x="25" y="500">                        ...::-=++++=-+++:</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:3.333333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                              +####=+###*</tspan>
+<tspan x="25" y="80"> :.:::::::::::::::.....   .::*#########*</tspan>
+<tspan x="25" y="90"> =::..............     ... -*#########+</tspan>
+<tspan x="25" y="100"> +::                      +##########*+*-</tspan>
+<tspan x="25" y="110"> +:-                    .*##########+****-</tspan>
+<tspan x="25" y="120"> +:--                  -###########+******-</tspan>
+<tspan x="25" y="130"> =-==.                =**********=:********-</tspan>
+<tspan x="25" y="140"> :-===              :#########%#-  .+******+-</tspan>
+<tspan x="25" y="150">  :----            =#######%%%#.     +**++++-.</tspan>
+<tspan x="25" y="160">  ==+++-          *#######%@@*        -=++***+</tspan>
+<tspan x="25" y="170">  --++++:       :########%%@-          =+****==</tspan>
+<tspan x="25" y="180">   -+++++:     -########%%*             =+++*++</tspan>
+<tspan x="25" y="190">   --+++++.   +##########=               =++++=-</tspan>
+<tspan x="25" y="200">    -++++**: =++++*****+.                 =+++=*</tspan>
+<tspan x="25" y="210">    .-++***=*#########+                    ===-*</tspan>
+<tspan x="25" y="220">     .-====*#########-                      -=-#</tspan>
+<tspan x="25" y="230">      :++=#########*.                       :=-#</tspan>
+<tspan x="25" y="240">       -=#########+                          --#</tspan>
+<tspan x="25" y="250">       :*########-                            -#</tspan>
+<tspan x="25" y="260">       *#######*-=.                           =+</tspan>
+<tspan x="25" y="270">      ++++++++=:+##-                          +:</tspan>
+<tspan x="25" y="280">     +**#####=:=+++*=                        .*.</tspan>
+<tspan x="25" y="290">    -****##*=-****###*                       *=-</tspan>
+<tspan x="25" y="300">    *****#*= :****#####:                    :*-=</tspan>
+<tspan x="25" y="310">   +******=   .***######+                   *===</tspan>
+<tspan x="25" y="320">  .******=      *########*                 +=+++</tspan>
+<tspan x="25" y="330">  =****+=        +#########:              -+++++</tspan>
+<tspan x="25" y="340">  ==++=-          =########%=            .=====-</tspan>
+<tspan x="25" y="350"> :****=:           :********#*          .++****:</tspan>
+<tspan x="25" y="360"> -+**=-             .*#######%%:       .++*****</tspan>
+<tspan x="25" y="370"> =++==                +########%-     .++*****-</tspan>
+<tspan x="25" y="380"> ++==                  -#########=   .+*******</tspan>
+<tspan x="25" y="390"> =+=-                   .*########+ :+******#:</tspan>
+<tspan x="25" y="400"> --+                      *#####***==*****##+</tspan>
+<tspan x="25" y="410"> .-:                       -+++++=-=++++++++</tspan>
+<tspan x="25" y="420">  +                         :*#*+=+**######.</tspan>
+<tspan x="25" y="430"> .=                          .*+=*########:</tspan>
+<tspan x="25" y="440"> --                           .=#########:</tspan>
+<tspan x="25" y="450"> =-:                         :+#########=:</tspan>
+<tspan x="25" y="460"> +--.                       -*#########=++:</tspan>
+<tspan x="25" y="470"> +:--                      =##########-===-.</tspan>
+<tspan x="25" y="480"> =:==-                    =+++******+=+++**=.</tspan>
+<tspan x="25" y="490"> --=:=======--------:::.-####*#####*---==-++=</tspan>
+<tspan x="25" y="500">                       =****=+****=</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:3.500000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                              +####=+###*</tspan>
+<tspan x="25" y="80"> :.:::::::::::::::.....   .::*#########*</tspan>
+<tspan x="25" y="90"> =::..............     ... -*#########+</tspan>
+<tspan x="25" y="100"> +::                      +##########*+*-</tspan>
+<tspan x="25" y="110"> +:-                    .*##########+****-</tspan>
+<tspan x="25" y="120"> +:--                  -###########+******-</tspan>
+<tspan x="25" y="130"> =-==.                =**********=:********-</tspan>
+<tspan x="25" y="140"> :-===              :#########%#-  .+******+-</tspan>
+<tspan x="25" y="150">  :----            =#######%%%#.     +**++++-.</tspan>
+<tspan x="25" y="160">  ==+++-          *#######%@@*        -=++***+</tspan>
+<tspan x="25" y="170">  --++++:       :########%%@-          =+****==</tspan>
+<tspan x="25" y="180">   -+++++:     -########%%*             =+++*++</tspan>
+<tspan x="25" y="190">   --+++++.   +##########=               =++++=-</tspan>
+<tspan x="25" y="200">    -++++**: =++++*****+.                 =+++=*</tspan>
+<tspan x="25" y="210">    .-++***=*#########+                    ===-*</tspan>
+<tspan x="25" y="220">     .-====*#########-                      -=-#</tspan>
+<tspan x="25" y="230">      :++=#########*.                       :=-#</tspan>
+<tspan x="25" y="240">       -=#########+                          --#</tspan>
+<tspan x="25" y="250">       :*########-                            -#</tspan>
+<tspan x="25" y="260">       *#######*-=.                           =+</tspan>
+<tspan x="25" y="270">      ++++++++=:+##-                          +:</tspan>
+<tspan x="25" y="280">     +**#####=:=+++*=                        .*.</tspan>
+<tspan x="25" y="290">    -****##*=-****###*                       *=-</tspan>
+<tspan x="25" y="300">    *****#*= :****#####:                    :*-=</tspan>
+<tspan x="25" y="310">   +******=   .***######+                   *===</tspan>
+<tspan x="25" y="320">  .******=      *########*                 +=+++</tspan>
+<tspan x="25" y="330">  =****+=        +#########:              -+++++</tspan>
+<tspan x="25" y="340">  ==++=-          =########%=            .=====-</tspan>
+<tspan x="25" y="350"> :****=:           :********#*          .++****:</tspan>
+<tspan x="25" y="360"> -+**=-             .*#######%%:       .++*****</tspan>
+<tspan x="25" y="370"> =++==                +########%-     .++*****-</tspan>
+<tspan x="25" y="380"> ++==                  -#########=   .+*******</tspan>
+<tspan x="25" y="390"> =+=-                   .*########+ :+******#:</tspan>
+<tspan x="25" y="400"> --+                      *#####***==*****##+</tspan>
+<tspan x="25" y="410"> .-:                       -+++++=-=++++++++</tspan>
+<tspan x="25" y="420">  +                         :*#*+=+**######.</tspan>
+<tspan x="25" y="430"> .=                          .*+=*########:</tspan>
+<tspan x="25" y="440"> --                           .=#########:</tspan>
+<tspan x="25" y="450"> =-:                         :+#########=:</tspan>
+<tspan x="25" y="460"> +--.                       -*#########=++:</tspan>
+<tspan x="25" y="470"> +:--                      =##########-===-.</tspan>
+<tspan x="25" y="480"> =:==-                    =+++******+=+++**=.</tspan>
+<tspan x="25" y="490"> --=:=======--------:::.-####*#####*---==-++=</tspan>
+<tspan x="25" y="500">                       =****=+****=</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:3.666667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                              +####=+###*</tspan>
+<tspan x="25" y="80"> :.:::::::::::::::.....   .::*#########*</tspan>
+<tspan x="25" y="90"> =::..............     ... -*#########+</tspan>
+<tspan x="25" y="100"> +::                      +##########*+*-</tspan>
+<tspan x="25" y="110"> +:-                    .*##########+****-</tspan>
+<tspan x="25" y="120"> +:--                  -###########+******-</tspan>
+<tspan x="25" y="130"> =-==.                =**********=:********-</tspan>
+<tspan x="25" y="140"> :-===              :#########%#-  .+******+-</tspan>
+<tspan x="25" y="150">  :----            =#######%%%#.     +**++++-.</tspan>
+<tspan x="25" y="160">  ==+++-          *#######%@@*        -=++***+</tspan>
+<tspan x="25" y="170">  --++++:       :########%%@-          =+****==</tspan>
+<tspan x="25" y="180">   -+++++:     -########%%*             =+++*++</tspan>
+<tspan x="25" y="190">   --+++++.   +##########=               =++++=-</tspan>
+<tspan x="25" y="200">    -++++**: =++++*****+.                 =+++=*</tspan>
+<tspan x="25" y="210">    .-++***=*#########+                    ===-*</tspan>
+<tspan x="25" y="220">     .-====*#########-                      -=-#</tspan>
+<tspan x="25" y="230">      :++=#########*.                       :=-#</tspan>
+<tspan x="25" y="240">       -=#########+                          --#</tspan>
+<tspan x="25" y="250">       :*########-                            -#</tspan>
+<tspan x="25" y="260">       *#######*-=.                           =+</tspan>
+<tspan x="25" y="270">      ++++++++=:+##-                          +:</tspan>
+<tspan x="25" y="280">     +**#####=:=+++*=                        .*.</tspan>
+<tspan x="25" y="290">    -****##*=-****###*                       *=-</tspan>
+<tspan x="25" y="300">    *****#*= :****#####:                    :*-=</tspan>
+<tspan x="25" y="310">   +******=   .***######+                   *===</tspan>
+<tspan x="25" y="320">  .******=      *########*                 +=+++</tspan>
+<tspan x="25" y="330">  =****+=        +#########:              -+++++</tspan>
+<tspan x="25" y="340">  ==++=-          =########%=            .=====-</tspan>
+<tspan x="25" y="350"> :****=:           :********#*          .++****:</tspan>
+<tspan x="25" y="360"> -+**=-             .*#######%%:       .++*****</tspan>
+<tspan x="25" y="370"> =++==                +########%-     .++*****-</tspan>
+<tspan x="25" y="380"> ++==                  -#########=   .+*******</tspan>
+<tspan x="25" y="390"> =+=-                   .*########+ :+******#:</tspan>
+<tspan x="25" y="400"> --+                      *#####***==*****##+</tspan>
+<tspan x="25" y="410"> .-:                       -+++++=-=++++++++</tspan>
+<tspan x="25" y="420">  +                         :*#*+=+**######.</tspan>
+<tspan x="25" y="430"> .=                          .*+=*########:</tspan>
+<tspan x="25" y="440"> --                           .=#########:</tspan>
+<tspan x="25" y="450"> =-:                         :+#########=:</tspan>
+<tspan x="25" y="460"> +--.                       -*#########=++:</tspan>
+<tspan x="25" y="470"> +:--                      =##########-===-.</tspan>
+<tspan x="25" y="480"> =:==-                    =+++******+=+++**=.</tspan>
+<tspan x="25" y="490"> --=:=======--------:::.-####*#####*---==-++=</tspan>
+<tspan x="25" y="500">                       =****=+****=</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:3.833333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                          *####++####-</tspan>
+<tspan x="25" y="80"> .                      :###########.</tspan>
+<tspan x="25" y="90"> =-:=----:::::...      +##########*.</tspan>
+<tspan x="25" y="100"> =-==.               .*##########=.--:=+***-</tspan>
+<tspan x="25" y="110"> :-===              -#########%#.  :*******+-</tspan>
+<tspan x="25" y="120"> .-====            +#######%%%*     .+******+:</tspan>
+<tspan x="25" y="130">  =-===-         .+********#%-        +******+</tspan>
+<tspan x="25" y="140">  --==++:       -#######%%@%.          +*****==</tspan>
+<tspan x="25" y="150">   :-===+.     =########%%+             =+=====</tspan>
+<tspan x="25" y="160">   --++++=.   *##########:               =+++*==</tspan>
+<tspan x="25" y="170">    -++++**. *#########*                  =+++=*</tspan>
+<tspan x="25" y="180">    .-+++++=##########=                    +++=#</tspan>
+<tspan x="25" y="190">     :=+++=#########*:                     .===#</tspan>
+<tspan x="25" y="200">      -++-+++++****=                        :=-#</tspan>
+<tspan x="25" y="210">       -=#########=                          ::*</tspan>
+<tspan x="25" y="220">       :########*-                            -#</tspan>
+<tspan x="25" y="230">      .*#######+-=                            =+</tspan>
+<tspan x="25" y="240">      **######+-*##:                          *:</tspan>
+<tspan x="25" y="250">     +**#####=-***##=                        .*.</tspan>
+<tspan x="25" y="260">    -***###*=-****###*                       *=-</tspan>
+<tspan x="25" y="270">    ++++++=- -****#####.                    .=-=</tspan>
+<tspan x="25" y="280">   +****#*-   :++++*****:                   *-==</tspan>
+<tspan x="25" y="290">  .*****+=     .**#######+                 +=+++</tspan>
+<tspan x="25" y="300">  =****+=        *#########.              ==++++</tspan>
+<tspan x="25" y="310">  ****+=          +#######%%-            -+++++=</tspan>
+<tspan x="25" y="320"> :***+=.           =#######%%*          :+++***:</tspan>
+<tspan x="25" y="330"> -+**=-             :########%%.       :++*****</tspan>
+<tspan x="25" y="340"> -==--                *#######%%:     .==+++++:</tspan>
+<tspan x="25" y="350"> =+==                  -*********-   :=*******</tspan>
+<tspan x="25" y="360"> =+=-                   -#########= -+*******:</tspan>
+<tspan x="25" y="370"> --+                     .*######*+=+*****##=</tspan>
+<tspan x="25" y="380"> .=:                       +####*+=+***####*</tspan>
+<tspan x="25" y="390">  +                         -***+=**######*</tspan>
+<tspan x="25" y="400"> .=                          .*==*########</tspan>
+<tspan x="25" y="410"> :-                           .=++++++***.</tspan>
+<tspan x="25" y="420"> =--                         :*#########=:</tspan>
+<tspan x="25" y="430"> +--.                       =*#########=*+:</tspan>
+<tspan x="25" y="440"> +-==                      +##########=++*=.</tspan>
+<tspan x="25" y="450"> =-==-                   :*#########*=+++++=</tspan>
+<tspan x="25" y="460"> --===:                 =##########+ +++++++=</tspan>
+<tspan x="25" y="470"> .-==-=                +##########-   -=====-:</tspan>
+<tspan x="25" y="480">  ==++++.            .++*********.     =+++++=</tspan>
+<tspan x="25" y="490">  --+=:=========---.=####*####%*-::::---===-+=+</tspan>
+<tspan x="25" y="500">                  .+****=+**##=</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:4.000000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">         -###*+####-:</tspan>
+<tspan x="25" y="80">        -########*: .:---.....                 :.</tspan>
+<tspan x="25" y="90">       :########+:---: ::--:::::-------------- #.</tspan>
+<tspan x="25" y="100">      .########=:.       .                    :#</tspan>
+<tspan x="25" y="110">      *######*--+*-                           ==</tspan>
+<tspan x="25" y="120">     +######*--+++*=                          #:</tspan>
+<tspan x="25" y="130">    :****+++:=++++**+                        ==-</tspan>
+<tspan x="25" y="140">    +++***+-.+++++****:                      +:-.</tspan>
+<tspan x="25" y="150">   -***##+-   ++*******=                    *-==:</tspan>
+<tspan x="25" y="160">   ****#+=     -=+++++++=                  +==++:</tspan>
+<tspan x="25" y="170">  :****+=       =****#####:               ==++++.</tspan>
+<tspan x="25" y="180">  =***+=.        -****#####=             -+++++*</tspan>
+<tspan x="25" y="190">  ****=:          .*########*           -=+++**=</tspan>
+<tspan x="25" y="200">  ***--             *#######%%:        :-==++**.</tspan>
+<tspan x="25" y="210"> .==-=               +#######%@+      -=***+++=</tspan>
+<tspan x="25" y="220"> :++=.                -+++******=    -+*******</tspan>
+<tspan x="25" y="230"> :+==                  .*########*  =+*******-</tspan>
+<tspan x="25" y="240"> .=+.                    +########+=+*******+</tspan>
+<tspan x="25" y="250">  -+                      =######==*******#*</tspan>
+<tspan x="25" y="260">  =:                       :###*=+*****###*</tspan>
+<tspan x="25" y="270">  +                          **-=+++++++++</tspan>
+<tspan x="25" y="280">  =                           =**#######*</tspan>
+<tspan x="25" y="290"> .=:                         +#########*=.</tspan>
+<tspan x="25" y="300"> :--:                      :*#########*+*+.</tspan>
+<tspan x="25" y="310"> :--=                     -##########++***=.</tspan>
+<tspan x="25" y="320"> .===-                   +##########++*****=</tspan>
+<tspan x="25" y="330"> .====:                :###########.:******+=</tspan>
+<tspan x="25" y="340">  =--==               -+++*******=   :++++++=-</tspan>
+<tspan x="25" y="350">  =-====             *#########%=      ++++++=.</tspan>
+<tspan x="25" y="360">  .-+++++          -########%%%:       .+****++</tspan>
+<tspan x="25" y="370">   ==+++++        +########%%#          .++***=:</tspan>
+<tspan x="25" y="380">   .-++++++     .*#######%%%=            .++++=+</tspan>
+<tspan x="25" y="390">    -=++++*+   :#########%#.              :+++=*</tspan>
+<tspan x="25" y="400">     -++++**+ =#########%+                 -++++.</tspan>
+<tspan x="25" y="410">      :=====-=**********:                   -===:</tspan>
+<tspan x="25" y="420">      .=+++=*#########*.                    .+++-</tspan>
+<tspan x="25" y="430">       :+*=*#########+                       -++-</tspan>
+<tspan x="25" y="440">        :=##########-                         =+:</tspan>
+<tspan x="25" y="450">        .#########*:                          :#.</tspan>
+<tspan x="25" y="460">       .#########+:+:                          #</tspan>
+<tspan x="25" y="470">      .*########-:==+:                        -+</tspan>
+<tspan x="25" y="480">      ++++++**=:=+++===                       *-</tspan>
+<tspan x="25" y="490">     +##**###+::-----:..-:::::::::::::::::::::*..</tspan>
+<tspan x="25" y="500">     --=--=+-.......          .........:::::::.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:4.166667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">    ..:=+--..                               :.</tspan>
+<tspan x="25" y="80">   **+**=:.::--==+++==--:. .::::-----======*=+:=:</tspan>
+<tspan x="25" y="90">  .****=-             .:-=....            +=++++:</tspan>
+<tspan x="25" y="100">  =***==          ---.:.-:::             +=+++**</tspan>
+<tspan x="25" y="110">  +**+=            +*===*****.          +++****=</tspan>
+<tspan x="25" y="120">  +**=:             =********#=        =+******.</tspan>
+<tspan x="25" y="130">  +*==               -*******#%*      -=+++***=</tspan>
+<tspan x="25" y="140">  =-=                 .*******###.  :=****+++=</tspan>
+<tspan x="25" y="150">  +==                   +******###:-+********.</tspan>
+<tspan x="25" y="160">  =+.                    -+++++++==+******##:</tspan>
+<tspan x="25" y="170">  :+                      :*****==*******##-</tspan>
+<tspan x="25" y="180">  :-                        +**-+*****####-</tspan>
+<tspan x="25" y="190">  +:                         --*****#####-</tspan>
+<tspan x="25" y="200">  +:                         -++++++++++-</tspan>
+<tspan x="25" y="210">  =:.                       +##########=+:</tspan>
+<tspan x="25" y="220">  +--                     :*#########*==+=:</tspan>
+<tspan x="25" y="230">  +-=:                   =##########*+****+-</tspan>
+<tspan x="25" y="240">  +-==                  *##########=+******+-</tspan>
+<tspan x="25" y="250">  +-===               :###########.  +******=:</tspan>
+<tspan x="25" y="260">  --==+-             +##########*     +******=</tspan>
+<tspan x="25" y="270">  .-=+++-          .+********##-       +*****==</tspan>
+<tspan x="25" y="280">   ---===.        -########%%%:         ====++=.</tspan>
+<tspan x="25" y="290">   :-+++++:      +########%%*            =****=+</tspan>
+<tspan x="25" y="300">    -=++++*:    *########%%-              ++**++</tspan>
+<tspan x="25" y="310">    .-++++**: :##########*                 +++*+-</tspan>
+<tspan x="25" y="320">     :=+++**+=##########=                  .+++=+</tspan>
+<tspan x="25" y="330">      :+++*++##########:                    :++=*</tspan>
+<tspan x="25" y="340">       :++==*+*******=                       -=-+</tspan>
+<tspan x="25" y="350">        :-*#########=                         ==*</tspan>
+<tspan x="25" y="360">         *########*:                          -+=</tspan>
+<tspan x="25" y="370">        +########+-:                           *:</tspan>
+<tspan x="25" y="380">       +########=-**=                          #</tspan>
+<tspan x="25" y="390">      =########--***#*                        -+</tspan>
+<tspan x="25" y="400">     :*######*-=****###:                      #-:</tspan>
+<tspan x="25" y="410">     ++++++*=: ===++++++-                    :+-:</tspan>
+<tspan x="25" y="420">    +*#####+:  .+*****###+                   #-==</tspan>
+<tspan x="25" y="430">   .***###+:     +******##*.                ===+=</tspan>
+<tspan x="25" y="440">   +***##=:       =*******##-              :*=++-</tspan>
+<tspan x="25" y="450">  .*****=-         -********#+             *=+++:</tspan>
+<tspan x="25" y="460">  -****=-           .+*******#*           *=+++*</tspan>
+<tspan x="25" y="470">  +***==              =+++++++++.        +=++**+</tspan>
+<tspan x="25" y="480">  ==+--                :-=-=+==+*-      =-===++.</tspan>
+<tspan x="25" y="490">  +=+=:..:::::::::::::::-==::--==+:    ==**+***</tspan>
+<tspan x="25" y="500">   ...............        ...::::::-------::--.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:4.333333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">     :-:.                                .--:</tspan>
+<tspan x="25" y="80">  -*-*=-.--===++++===--::. :::----=======++++-**</tspan>
+<tspan x="25" y="90">  +**==                .--...          :=+*****=</tspan>
+<tspan x="25" y="100">  +*+=.              --::..-===       :=*******</tspan>
+<tspan x="25" y="110">  ++==               .++===**#%#.    -+*******-</tspan>
+<tspan x="25" y="120">  +=+                  +*******##:  -+*******+</tspan>
+<tspan x="25" y="130">  +=-                   =*********:-=+++++***</tspan>
+<tspan x="25" y="140">  -=                     :*******==********+</tspan>
+<tspan x="25" y="150">  .+                       +***+=+*****####.</tspan>
+<tspan x="25" y="160">  -:                        -+=-*****#####.</tspan>
+<tspan x="25" y="170">  =:                         :=****#####*.</tspan>
+<tspan x="25" y="180">  +:                         +**#######*-</tspan>
+<tspan x="25" y="190">  +::                      :*#########*+*-</tspan>
+<tspan x="25" y="200">  +:=                     -++++++++**=+***-</tspan>
+<tspan x="25" y="210">  =:--                   *##########++*****-</tspan>
+<tspan x="25" y="220">  +-=-.                -##########*.====+++=:</tspan>
+<tspan x="25" y="230">  =-==+               +##########+   +******+-</tspan>
+<tspan x="25" y="240">  :-==+=            .*#########%-     =******=.</tspan>
+<tspan x="25" y="250">   ==+++=          =########%%%.       =*****++</tspan>
+<tspan x="25" y="260">   =-++++-        +#######%%@*          -*****=-</tspan>
+<tspan x="25" y="270">   .-++++*-     .++++*****##:            -****=*</tspan>
+<tspan x="25" y="280">    :-=====:   -#########%*               -=====.</tspan>
+<tspan x="25" y="290">     -++++**- =##########=                 =+++==</tspan>
+<tspan x="25" y="300">     .-+++**+*##########:                   +++=*</tspan>
+<tspan x="25" y="310">      :=+++=*#########+                     .++=#</tspan>
+<tspan x="25" y="320">       :++=*#########-                       -+=#</tspan>
+<tspan x="25" y="330">        :=*########*:                         ==*</tspan>
+<tspan x="25" y="340">         +++++****=                           .--</tspan>
+<tspan x="25" y="350">        *########=-=                           *:</tspan>
+<tspan x="25" y="360">       *#######*-=*#*                          #</tspan>
+<tspan x="25" y="370">      +#######*-=***#*:                       -+.</tspan>
+<tspan x="25" y="380">     =#######+-+****###=                      #--</tspan>
+<tspan x="25" y="390">    .*######=. +*****###+                    =+==</tspan>
+<tspan x="25" y="400">    ***####=.   +****####*.                  #-++</tspan>
+<tspan x="25" y="410">   .++++++-.     -+++++++++:                +-===</tspan>
+<tspan x="25" y="420">   ******=.       -****#####=              -++++-</tspan>
+<tspan x="25" y="430">  .*****=.         :*****####*            :+=+++:</tspan>
+<tspan x="25" y="440">  -****=:            +*****####:         .*=+++*</tspan>
+<tspan x="25" y="450">  +***=-              =******###=        +=+***+</tspan>
+<tspan x="25" y="460">  ***==                :********#=      ++*****:</tspan>
+<tspan x="25" y="470">  +*+=                   =++===+++=    ++*****+</tspan>
+<tspan x="25" y="480">  ==-.                   --=+*+==+*+  ===+++++.</tspan>
+<tspan x="25" y="490">  -=+:::::::::::::::---.-+=-::::--===++**+***=</tspan>
+<tspan x="25" y="500">   . .......             ...::::-----===-:==-</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:4.500000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">     :-:.                                .--:</tspan>
+<tspan x="25" y="80">  -*-*=-.--===++++===--::. :::----=======++++-**</tspan>
+<tspan x="25" y="90">  +**==                .--...          :=+*****=</tspan>
+<tspan x="25" y="100">  +*+=.              --::..-===       :=*******</tspan>
+<tspan x="25" y="110">  ++==               .++===**#%#.    -+*******-</tspan>
+<tspan x="25" y="120">  +=+                  +*******##:  -+*******+</tspan>
+<tspan x="25" y="130">  +=-                   =*********:-=+++++***</tspan>
+<tspan x="25" y="140">  -=                     :*******==********+</tspan>
+<tspan x="25" y="150">  .+                       +***+=+*****####.</tspan>
+<tspan x="25" y="160">  -:                        -+=-*****#####.</tspan>
+<tspan x="25" y="170">  =:                         :=****#####*.</tspan>
+<tspan x="25" y="180">  +:                         +**#######*-</tspan>
+<tspan x="25" y="190">  +::                      :*#########*+*-</tspan>
+<tspan x="25" y="200">  +:=                     -++++++++**=+***-</tspan>
+<tspan x="25" y="210">  =:--                   *##########++*****-</tspan>
+<tspan x="25" y="220">  +-=-.                -##########*.====+++=:</tspan>
+<tspan x="25" y="230">  =-==+               +##########+   +******+-</tspan>
+<tspan x="25" y="240">  :-==+=            .*#########%-     =******=.</tspan>
+<tspan x="25" y="250">   ==+++=          =########%%%.       =*****++</tspan>
+<tspan x="25" y="260">   =-++++-        +#######%%@*          -*****=-</tspan>
+<tspan x="25" y="270">   .-++++*-     .++++*****##:            -****=*</tspan>
+<tspan x="25" y="280">    :-=====:   -#########%*               -=====.</tspan>
+<tspan x="25" y="290">     -++++**- =##########=                 =+++==</tspan>
+<tspan x="25" y="300">     .-+++**+*##########:                   +++=*</tspan>
+<tspan x="25" y="310">      :=+++=*#########+                     .++=#</tspan>
+<tspan x="25" y="320">       :++=*#########-                       -+=#</tspan>
+<tspan x="25" y="330">        :=*########*:                         ==*</tspan>
+<tspan x="25" y="340">         +++++****=                           .--</tspan>
+<tspan x="25" y="350">        *########=-=                           *:</tspan>
+<tspan x="25" y="360">       *#######*-=*#*                          #</tspan>
+<tspan x="25" y="370">      +#######*-=***#*:                       -+.</tspan>
+<tspan x="25" y="380">     =#######+-+****###=                      #--</tspan>
+<tspan x="25" y="390">    .*######=. +*****###+                    =+==</tspan>
+<tspan x="25" y="400">    ***####=.   +****####*.                  #-++</tspan>
+<tspan x="25" y="410">   .++++++-.     -+++++++++:                +-===</tspan>
+<tspan x="25" y="420">   ******=.       -****#####=              -++++-</tspan>
+<tspan x="25" y="430">  .*****=.         :*****####*            :+=+++:</tspan>
+<tspan x="25" y="440">  -****=:            +*****####:         .*=+++*</tspan>
+<tspan x="25" y="450">  +***=-              =******###=        +=+***+</tspan>
+<tspan x="25" y="460">  ***==                :********#=      ++*****:</tspan>
+<tspan x="25" y="470">  +*+=                   =++===+++=    ++*****+</tspan>
+<tspan x="25" y="480">  ==-.                   --=+*+==+*+  ===+++++.</tspan>
+<tspan x="25" y="490">  -=+:::::::::::::-----.-+=-::::--===++**+***=</tspan>
+<tspan x="25" y="500">   . .......             ...::::-----===-:==-</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:4.666667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">     :-:.                                .--:</tspan>
+<tspan x="25" y="80">  -*-*=-.--===++++===--::. :::----=======++++-**</tspan>
+<tspan x="25" y="90">  +**==                .--...          :=+*****=</tspan>
+<tspan x="25" y="100">  +*+=.              --::..-===       :=*******</tspan>
+<tspan x="25" y="110">  ++==               .++===**#%#.    -+*******-</tspan>
+<tspan x="25" y="120">  +=+                  +*******##:  -+*******+</tspan>
+<tspan x="25" y="130">  +=-                   =*********:-=+++++***</tspan>
+<tspan x="25" y="140">  -=                     :*******==********+</tspan>
+<tspan x="25" y="150">  .+                       +***+=+*****####.</tspan>
+<tspan x="25" y="160">  -:                        -+=-*****#####.</tspan>
+<tspan x="25" y="170">  =:                         :=****#####*.</tspan>
+<tspan x="25" y="180">  +:                         +**#######*-</tspan>
+<tspan x="25" y="190">  +::                      :*#########*+*-</tspan>
+<tspan x="25" y="200">  +:=                     -++++++++**=+***-</tspan>
+<tspan x="25" y="210">  =:--                   *##########++*****-</tspan>
+<tspan x="25" y="220">  +-=-.                -##########*.====+++=:</tspan>
+<tspan x="25" y="230">  =-==+               +##########+   +******+-</tspan>
+<tspan x="25" y="240">  :-==+=            .*#########%-     =******=.</tspan>
+<tspan x="25" y="250">   ==+++=          =########%%%.       =*****++</tspan>
+<tspan x="25" y="260">   =-++++-        +#######%%@*          -*****=-</tspan>
+<tspan x="25" y="270">   .-++++*-     .++++*****##:            -****=*</tspan>
+<tspan x="25" y="280">    :-=====:   -#########%*               -=====.</tspan>
+<tspan x="25" y="290">     -++++**- =##########=                 =+++==</tspan>
+<tspan x="25" y="300">     .-+++**+*##########:                   +++=*</tspan>
+<tspan x="25" y="310">      :=+++=*#########+                     .++=#</tspan>
+<tspan x="25" y="320">       :++=*#########-                       -+=#</tspan>
+<tspan x="25" y="330">        :=*########*:                         ==*</tspan>
+<tspan x="25" y="340">         +++++****=                           .--</tspan>
+<tspan x="25" y="350">        *########=-=                           *:</tspan>
+<tspan x="25" y="360">       *#######*-=*#*                          #</tspan>
+<tspan x="25" y="370">      +#######*-=***#*:                       -+.</tspan>
+<tspan x="25" y="380">     =#######+-+****###=                      #--</tspan>
+<tspan x="25" y="390">    .*######=. +*****###+                    =+==</tspan>
+<tspan x="25" y="400">    ***####=.   +****####*.                  #-++</tspan>
+<tspan x="25" y="410">   .++++++-.     -+++++++++:                +-===</tspan>
+<tspan x="25" y="420">   ******=.       -****#####=              -++++-</tspan>
+<tspan x="25" y="430">  .*****=.         :*****####*            :+=+++:</tspan>
+<tspan x="25" y="440">  -****=:            +*****####:         .*=+++*</tspan>
+<tspan x="25" y="450">  +***=-              =******###=        +=+***+</tspan>
+<tspan x="25" y="460">  ***==                :********#=      ++*****:</tspan>
+<tspan x="25" y="470">  +*+=                   =++===+++=    ++*****+</tspan>
+<tspan x="25" y="480">  ==-.                   --=+*+==+*+  ===+++++.</tspan>
+<tspan x="25" y="490">  -=+:::::::::::::-----.-+=-::::--===++**+***=</tspan>
+<tspan x="25" y="500">   . .......             ...::::-----===-:==-</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:4.833333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">     .                                -=++::::.</tspan>
+<tspan x="25" y="80">  --===+++++++====---:::.  ::----=---=+***++**=</tspan>
+<tspan x="25" y="90">  +=+                   -.:.        -+*******+</tspan>
+<tspan x="25" y="100">  +==                   ....:::--=:=*********</tspan>
+<tspan x="25" y="110">  -=.                    -*===+**=+******##*</tspan>
+<tspan x="25" y="120">  .+                      .+***+-+****#####.</tspan>
+<tspan x="25" y="130">  :-                        =*=-++++++++++.</tspan>
+<tspan x="25" y="140">  -:                         :+***######*</tspan>
+<tspan x="25" y="150">  +:                        .**########*-</tspan>
+<tspan x="25" y="160">  +:-                      -##########*==:</tspan>
+<tspan x="25" y="170">  +:=                     +##########++***-</tspan>
+<tspan x="25" y="180">  +:==                  .*##########++*****-</tspan>
+<tspan x="25" y="190">  +-==:                =##########*.+******+-</tspan>
+<tspan x="25" y="200">  --==+               =++++******-   +******+-</tspan>
+<tspan x="25" y="210">  .:==+=            :#########%%:     =******=:</tspan>
+<tspan x="25" y="220">   =-===-          =########%@#        -=+=++==</tspan>
+<tspan x="25" y="230">   --++++-        *#######%%@+          =*****==</tspan>
+<tspan x="25" y="240">    -+++++-     :#########%#.            -****+*</tspan>
+<tspan x="25" y="250">    --++++*-   =#########%+               =+***+:</tspan>
+<tspan x="25" y="260">     -++++**- +##########-                 =++*=+</tspan>
+<tspan x="25" y="270">     .-+++**=++++++****+                    +++=#</tspan>
+<tspan x="25" y="280">      .-====*#########=                      ==-*</tspan>
+<tspan x="25" y="290">       :++=*#########-                       :+=#</tspan>
+<tspan x="25" y="300">        :=#########*.                         ==#</tspan>
+<tspan x="25" y="310">        .#########=                           .=+</tspan>
+<tspan x="25" y="320">        *########-==                           +-</tspan>
+<tspan x="25" y="330">       *#######*-=*#+                          #.</tspan>
+<tspan x="25" y="340">      =++++++*=:+***#*.                       :+.</tspan>
+<tspan x="25" y="350">     -*######=-=+++++++-                      #--</tspan>
+<tspan x="25" y="360">    .**#####=. +****####+                    -+=+</tspan>
+<tspan x="25" y="370">    +**###*=.   +****####*.                  *=++</tspan>
+<tspan x="25" y="380">   :***##*-      =***######-                *=+++</tspan>
+<tspan x="25" y="390">   +*****=        -***######+              ==+++=</tspan>
+<tspan x="25" y="400">  .*****=.         :**#######*            :+++++-</tspan>
+<tspan x="25" y="410">  :++++-.            =++++++***.          =-====</tspan>
+<tspan x="25" y="420">  =***=-              +*#######%-        +=+***+</tspan>
+<tspan x="25" y="430">  +**==                -***######=      ++*****:</tspan>
+<tspan x="25" y="440">  +*+=                  .*****####+    ++******</tspan>
+<tspan x="25" y="450">  ++=:                    +********+ .++******:</tspan>
+<tspan x="25" y="460">  ==+                      -********==*******=</tspan>
+<tspan x="25" y="470">  :=:                       .===++===********</tspan>
+<tspan x="25" y="480">   =                    .:.   +**+-=++++++++</tspan>
+<tspan x="25" y="490">  :-:------------------:==-:.....-+***+*###:</tspan>
+<tspan x="25" y="500">                 .       ..:::---=+++--===:</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:5.000000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                   -#####+*%%@%.</tspan>
+<tspan x="25" y="80">                  +#######%@@*</tspan>
+<tspan x="25" y="90">   .:-:-====---:-*#######%%%:.--======--:::..--=</tspan>
+<tspan x="25" y="100">    -==:--.    :#########%*              .--+**+:</tspan>
+<tspan x="25" y="110">    :-+++++:  -##########=                -++**=+</tspan>
+<tspan x="25" y="120">     -=+++++.=#########*:                  =++*=#</tspan>
+<tspan x="25" y="130">      -++++==+++++****=                     =+++*.</tspan>
+<tspan x="25" y="140">      :=++=+#########-                       =+++.</tspan>
+<tspan x="25" y="150">       :==*########*:                        .--*.</tspan>
+<tspan x="25" y="160">        :+########+.                          --#</tspan>
+<tspan x="25" y="170">        =########=.                            -#</tspan>
+<tspan x="25" y="180">       -*######*--*.                           -+</tspan>
+<tspan x="25" y="190">      :***####*-=***:                          *:</tspan>
+<tspan x="25" y="200">      +++++++=:=***##=                        :*-</tspan>
+<tspan x="25" y="210">     =****##+-+*****##*                       *:-</tspan>
+<tspan x="25" y="220">    :*****#=: :==+++++*+.                    =+==</tspan>
+<tspan x="25" y="230">    +****#=-   :****#####=                  .*=++.</tspan>
+<tspan x="25" y="240">   :*****=-      ***######*                 *=+++</tspan>
+<tspan x="25" y="250">   =****=-        +*########.              *=++++</tspan>
+<tspan x="25" y="260">   ****==          =#########=            +=++**=</tspan>
+<tspan x="25" y="270">  .+++=-            -########%*          --===++:</tspan>
+<tspan x="25" y="280">  :+*+=.             .********##        ==******</tspan>
+<tspan x="25" y="290">  -+*=-                +########%:     =+******:</tspan>
+<tspan x="25" y="300">  =+=+                  =#########=   =+******+</tspan>
+<tspan x="25" y="310">  -+=:                   :#########+ =+*******</tspan>
+<tspan x="25" y="320">  :-+                      *######*==********-</tspan>
+<tspan x="25" y="330">   =:                       =####*=+******##=</tspan>
+<tspan x="25" y="340">   =                         :**+-=++++++++=</tspan>
+<tspan x="25" y="350">  .=                           -=***######+</tspan>
+<tspan x="25" y="360">  :-.                          =*########+</tspan>
+<tspan x="25" y="370">  ---                        .+*########*=-</tspan>
+<tspan x="25" y="380">  =--:                      -*#########++*+-</tspan>
+<tspan x="25" y="390">  =-==.                    =##########++++*+-</tspan>
+<tspan x="25" y="400">  --===                   *##########=+++++*=:</tspan>
+<tspan x="25" y="410">  .:---:                .+++++++***+. -======-</tspan>
+<tspan x="25" y="420">   ==+++-              =##########*    =+++++==</tspan>
+<tspan x="25" y="430">   =-++++:            *##########=      =+++++=:</tspan>
+<tspan x="25" y="440">   :-+++**:         :###########:        =++++=+</tspan>
+<tspan x="25" y="450">    ==+****:       +#########%#           =++++=.</tspan>
+<tspan x="25" y="460">    .-+*****:    .*#########%=             =+++==</tspan>
+<tspan x="25" y="470">     :-===+++:  -###########.               -==-*</tspan>
+<tspan x="25" y="480">      -+***+++--+++*******=                 :++=*</tspan>
+<tspan x="25" y="490">       -+++-:-*###**#####- ......:::::::-----==-+:</tspan>
+<tspan x="25" y="500">             +++++==***+</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:5.166667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">        =**#=+###=-:.</tspan>
+<tspan x="25" y="80">       -**#####*-   .-===-.....................:+</tspan>
+<tspan x="25" y="90">      .**#####*-..:---: --=....................*-</tspan>
+<tspan x="25" y="100">      ***####+-.::--.     .                    #:</tspan>
+<tspan x="25" y="110">     =***###+-=++++**-                        +=-</tspan>
+<tspan x="25" y="120">    .****##=-:+++++***=                      :+-=</tspan>
+<tspan x="25" y="130">    +****+-:  -++++++**+                     *-==</tspan>
+<tspan x="25" y="140">    ++++*=-    :++*******:                  +---=</tspan>
+<tspan x="25" y="150">   =****==      .*******##+                +=++++</tspan>
+<tspan x="25" y="160">   ****+=         =+++++++++              ==+++++</tspan>
+<tspan x="25" y="170">  .+**+=           +*****####-           ==+++**-</tspan>
+<tspan x="25" y="180">  :+*+=:            -******###+         ==******</tspan>
+<tspan x="25" y="190">  -+*==              :*#######%%.      ==******=</tspan>
+<tspan x="25" y="200">  =+==                 *#######%%:    -==+++++*</tspan>
+<tspan x="25" y="210">  -=-:                  +#########-  =+*******.</tspan>
+<tspan x="25" y="220">  -=+                    :+++++++++-=*******#=</tspan>
+<tspan x="25" y="230">  :--                     .*#####*=+*****###+</tspan>
+<tspan x="25" y="240">   +                        +###*=+****####+</tspan>
+<tspan x="25" y="250">   +                         -#+=**#######*</tspan>
+<tspan x="25" y="260">  :-                          :=*########*</tspan>
+<tspan x="25" y="270">  --:                        .=++++++++*+:</tspan>
+<tspan x="25" y="280">  -::                       -*#########+==:</tspan>
+<tspan x="25" y="290">  =---                     +##########++**+-</tspan>
+<tspan x="25" y="300">  =-==.                  .*##########=++***+-</tspan>
+<tspan x="25" y="310">  --===                 -##########*.+++****=-</tspan>
+<tspan x="25" y="320">  .-====               +##########+   =++****=.</tspan>
+<tspan x="25" y="330">   ===++-            .*##########-     =+****+=</tspan>
+<tspan x="25" y="340">   -:====:          -*********#*        -+++++-:</tspan>
+<tspan x="25" y="350">   .-===++:        *########%%*          -++++++</tspan>
+<tspan x="25" y="360">    --++++*:     :*########%%-            =++++=-</tspan>
+<tspan x="25" y="370">     -++++**-   =#########%*               =+++=*</tspan>
+<tspan x="25" y="380">     :-++****- +##########=                 +++=#</tspan>
+<tspan x="25" y="390">      :=+****=*##########.                  .+++*.</tspan>
+<tspan x="25" y="400">       -++**=##########+                     -+++:</tspan>
+<tspan x="25" y="410">        :==-+++++++***-                       --+.</tspan>
+<tspan x="25" y="420">         -=#########*:                        :-#.</tspan>
+<tspan x="25" y="430">         -#########+                           -#</tspan>
+<tspan x="25" y="440">        :#########=-=                          :*</tspan>
+<tspan x="25" y="450">       :########*-=**+                         ==</tspan>
+<tspan x="25" y="460">      .**######+-=++***:                       #-</tspan>
+<tspan x="25" y="470">      ***#####=:-=====++:                     -+=</tspan>
+<tspan x="25" y="480">     =+++++++-  ++***++=.:.                   *:-</tspan>
+<tspan x="25" y="490">    :**+*##*-:  .-===---:--:::::::::::::.....=+-=.</tspan>
+<tspan x="25" y="500">    :--:-==: .........      ......:::::::::::=.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:5.333333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">        =**#=+###=-:.</tspan>
+<tspan x="25" y="80">       -**#####*-   .-===-.....................:+</tspan>
+<tspan x="25" y="90">      .***####*-..:---: --=....................*-</tspan>
+<tspan x="25" y="100">      ***####+-.::--.     .                    #:</tspan>
+<tspan x="25" y="110">     =***###+-=++++**-                        +=-</tspan>
+<tspan x="25" y="120">    .****##=-:+++++***=                      :*-=</tspan>
+<tspan x="25" y="130">    +****+-:  -++++++**+                     *-==</tspan>
+<tspan x="25" y="140">    ++++*=-    :++*******:                  +--==</tspan>
+<tspan x="25" y="150">   =****==      .*******##+                +=++++</tspan>
+<tspan x="25" y="160">   ****+=         =+++++++++              ==+++++</tspan>
+<tspan x="25" y="170">  .+**+=           =*****####-           ==++***-</tspan>
+<tspan x="25" y="180">  :+*+=:            -******###+         ==+*****</tspan>
+<tspan x="25" y="190">  -+*==              :*#######%%.      ==******=</tspan>
+<tspan x="25" y="200">  =+==                 *#######%%:    -==+++++*</tspan>
+<tspan x="25" y="210">  -=-:                  +#########-  =+*******.</tspan>
+<tspan x="25" y="220">  -=+                    :+++++++++-=*******#=</tspan>
+<tspan x="25" y="230">  :--                     .*#####*=+*****###+</tspan>
+<tspan x="25" y="240">   +                        +###*=+***#####+</tspan>
+<tspan x="25" y="250">   +                         -#+=**#######*</tspan>
+<tspan x="25" y="260">  :-                          :=*########+</tspan>
+<tspan x="25" y="270">  --:                        .=++++++++*+:</tspan>
+<tspan x="25" y="280">  -::                       -*#########+==:</tspan>
+<tspan x="25" y="290">  =---                     +##########++**+-</tspan>
+<tspan x="25" y="300">  =-==.                  .*##########=++***+-</tspan>
+<tspan x="25" y="310">  --===                 -##########*.+++****=-</tspan>
+<tspan x="25" y="320">  .-====               +##########+   =++****=.</tspan>
+<tspan x="25" y="330">   ===++-            .*##########-     =+****+=</tspan>
+<tspan x="25" y="340">   -:====:          -*********#*        -+++++-:</tspan>
+<tspan x="25" y="350">   .-=++++:        *########%%*          -++++++</tspan>
+<tspan x="25" y="360">    -=++++*:     :*########%%-            =++++=-</tspan>
+<tspan x="25" y="370">     -++++**-   =#########%*               =+++=*</tspan>
+<tspan x="25" y="380">     :-++****- +##########=                 +++=#</tspan>
+<tspan x="25" y="390">      :=+****=*##########.                  .+++*.</tspan>
+<tspan x="25" y="400">       -++**=##########+                     -+++:</tspan>
+<tspan x="25" y="410">        :==-+++++++***-                       -=+.</tspan>
+<tspan x="25" y="420">         -=#########*:                        :-#.</tspan>
+<tspan x="25" y="430">         -#########+                           -#</tspan>
+<tspan x="25" y="440">        :#########=-=                          :*</tspan>
+<tspan x="25" y="450">       :*#######*-=**+                         ==</tspan>
+<tspan x="25" y="460">      .**######+-=++***:                       #-</tspan>
+<tspan x="25" y="470">      ***#####=:-=====++:                     -+-</tspan>
+<tspan x="25" y="480">     =+++++++-  ++***++=...                   *:-</tspan>
+<tspan x="25" y="490">    :**+**#*-.  .-===---:--:::::::::::::.....=+-=.</tspan>
+<tspan x="25" y="500">    :--:-==: .........      ......:::::::::::=.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:5.500000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">        =**#=+###=-:.</tspan>
+<tspan x="25" y="80">       -*######*-   .-===-:....................:+</tspan>
+<tspan x="25" y="90">      .**#####*-..:---: --=....................*-</tspan>
+<tspan x="25" y="100">      ***####+-.:---.     .                    #:</tspan>
+<tspan x="25" y="110">     =***###+-=++++**-                        +=-</tspan>
+<tspan x="25" y="120">    .*****#=-:+++++***=                      :+-=</tspan>
+<tspan x="25" y="130">    +****+-:  -+++++***+                     *-==</tspan>
+<tspan x="25" y="140">    ++++*=-    :++*******:                  +---=</tspan>
+<tspan x="25" y="150">   =****==      .*******##+                +=++++</tspan>
+<tspan x="25" y="160">   ****+=         =+++++++++              ==+++++</tspan>
+<tspan x="25" y="170">  .***+=           =*****####-           ==++***-</tspan>
+<tspan x="25" y="180">  :+*+=:            -*****####+         ==+*****</tspan>
+<tspan x="25" y="190">  -+*==              :*#######%%.      ==******=</tspan>
+<tspan x="25" y="200">  =+==                 *#######%%:    -=++++++*</tspan>
+<tspan x="25" y="210">  -=-:                  +#########-  =+*******.</tspan>
+<tspan x="25" y="220">  -=+                    :+++++++++-=*******#=</tspan>
+<tspan x="25" y="230">  :--                     .*#####*=+*****###+</tspan>
+<tspan x="25" y="240">   +                        +###*=+***#####+</tspan>
+<tspan x="25" y="250">   +                         -#+=**#######*</tspan>
+<tspan x="25" y="260">  :-                          :=*########*</tspan>
+<tspan x="25" y="270">  --:                        .=++++++++*+:</tspan>
+<tspan x="25" y="280">  -::                       -*#########+==:</tspan>
+<tspan x="25" y="290">  =---                     +##########++**+-</tspan>
+<tspan x="25" y="300">  =-==.                  .*##########=++***+-</tspan>
+<tspan x="25" y="310">  --===                 -##########*.++*****=-</tspan>
+<tspan x="25" y="320">  .-====               +##########+   =++****=.</tspan>
+<tspan x="25" y="330">   ===++-            .*##########-     =+****+=</tspan>
+<tspan x="25" y="340">   -:====:          -*********#*        -+++++-:</tspan>
+<tspan x="25" y="350">   .-=++++:        *########%%*          -++++++</tspan>
+<tspan x="25" y="360">    -=++++*:     :#########%%-            =++++=-</tspan>
+<tspan x="25" y="370">     -++++**-   =#########%*               =+++=*</tspan>
+<tspan x="25" y="380">     :-++****- +##########=                 +++=#</tspan>
+<tspan x="25" y="390">      :=+****=*##########.                  .+++*.</tspan>
+<tspan x="25" y="400">       -++*+=*#########+                     -++*:</tspan>
+<tspan x="25" y="410">        :==-+++++++***-                       -=+.</tspan>
+<tspan x="25" y="420">         -=#########*:                        :-#.</tspan>
+<tspan x="25" y="430">         -#########+                           -#</tspan>
+<tspan x="25" y="440">        :#########=-=                          :#</tspan>
+<tspan x="25" y="450">       :*#######*-=**+                         ==</tspan>
+<tspan x="25" y="460">      .**######+-=++***:                       #-</tspan>
+<tspan x="25" y="470">      ***#####=:-=====++:                     -+=</tspan>
+<tspan x="25" y="480">     =+++++++-  ++***++=...                   *:-</tspan>
+<tspan x="25" y="490">    :**+*##*-:  .-===---:--:::::::::::::.....=+-=.</tspan>
+<tspan x="25" y="500">    :--:-==: .........      .......::::::::::=.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:5.666667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">        +**==###+-::.</tspan>
+<tspan x="25" y="80">       **######=.  .:-===-....:::::::::::::::::=-</tspan>
+<tspan x="25" y="90">      =**####*=   .:--: :--.:::::::::.........:#:</tspan>
+<tspan x="25" y="100">     :***###*-:-::---                         -+-</tspan>
+<tspan x="25" y="110">     ****##*--++=++***.                       *-=</tspan>
+<tspan x="25" y="120">    -****#*-  +++++****-                     *===</tspan>
+<tspan x="25" y="130">    ****+=-    =++++****=                   ====+</tspan>
+<tspan x="25" y="140">   :+++++=      =+********.                :=-===</tspan>
+<tspan x="25" y="150">   +****=.       -******###-              .+=++++</tspan>
+<tspan x="25" y="160">   ****=:         .++++++++*=            .+++++*=</tspan>
+<tspan x="25" y="170">  :+**==            *****#####.         .+++****.</tspan>
+<tspan x="25" y="180">  -+*==              +*****###%-       .++*****+</tspan>
+<tspan x="25" y="190">  =++=.               =*#######%*     :=*******.</tspan>
+<tspan x="25" y="200">  =+-=                 :#########*   :=+++++++=</tspan>
+<tspan x="25" y="210">  :-=                    *########*.-+*******+</tspan>
+<tspan x="25" y="220">  :-=                     =+++++++==+*****##*</tspan>
+<tspan x="25" y="230">  .=.                      -####*==****#####.</tspan>
+<tspan x="25" y="240">   +                        .*#*=+***######:</tspan>
+<tspan x="25" y="250">  .=                          =-**########.</tspan>
+<tspan x="25" y="260">  --.                         =*#########:</tspan>
+<tspan x="25" y="270">  =--                        =++++++++*+=+.</tspan>
+<tspan x="25" y="280">  -::.                     :*#########*-==-.</tspan>
+<tspan x="25" y="290">  =--=                    =##########*++***=.</tspan>
+<tspan x="25" y="300">  --==-                  *##########=+++****=</tspan>
+<tspan x="25" y="310">  :-===:               :###########: :+*****+=</tspan>
+<tspan x="25" y="320">   -===+.             =##########*    .+*****==</tspan>
+<tspan x="25" y="330">   =-=+++           .*#########%=       +*****=.</tspan>
+<tspan x="25" y="340">   .:=====         :*********##.         ++++=-=</tspan>
+<tspan x="25" y="350">    -=++++=       +########%%#            =+++++.</tspan>
+<tspan x="25" y="360">    :-++++*+     *########%%-             .++++==</tspan>
+<tspan x="25" y="370">     -=+++**+  :###########                :+++=#</tspan>
+<tspan x="25" y="380">      -++****+=##########+                  -++=*</tspan>
+<tspan x="25" y="390">      .-+***+*##########:                    =++*.</tspan>
+<tspan x="25" y="400">       .=+*=*#########*                       =+*:</tspan>
+<tspan x="25" y="410">        .--=++++++***=                        :-+.</tspan>
+<tspan x="25" y="420">         :*#########-                          -#</tspan>
+<tspan x="25" y="430">         *########*-.                          :#</tspan>
+<tspan x="25" y="440">        *########+-**:                         -+</tspan>
+<tspan x="25" y="450">       +*#######--+***=                        *-</tspan>
+<tspan x="25" y="460">      =**#####*--+++***+                      .#-</tspan>
+<tspan x="25" y="470">     -***####+:.======+++.                    *==</tspan>
+<tspan x="25" y="480">     +++++++=.  :+****+=:::                  .+--</tspan>
+<tspan x="25" y="490">    +**+*##=-    -===-=-:-=:::::::::::...... *=-=</tspan>
+<tspan x="25" y="500">    :-::==:............     ......::::::::::::: .</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:5.833333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">    ..:===-:..                             .::</tspan>
+<tspan x="25" y="80">   +*+**=...::--==+++==--:..:----==========*=+===</tspan>
+<tspan x="25" y="90">   ****=-              ::--               +=++++=</tspan>
+<tspan x="25" y="100">  :***==           ===:::::--            +=++++*.</tspan>
+<tspan x="25" y="110">  =+*==             +*===***#*.        .+++****+</tspan>
+<tspan x="25" y="120">  =++=:              =*******#%=      :=+******:</tspan>
+<tspan x="25" y="130">  =+==                -*******#%*    .-=++++**=</tspan>
+<tspan x="25" y="140">  ---                  :*******##*  -+******+=</tspan>
+<tspan x="25" y="150">  --=                    +*******#+-+********.</tspan>
+<tspan x="25" y="160">  :=.                     -++++++-=******###:</tspan>
+<tspan x="25" y="170">   +                       :****=+****#####:</tspan>
+<tspan x="25" y="180">  .=                         *+-***#######:</tspan>
+<tspan x="25" y="190">  --                          =*#########:</tspan>
+<tspan x="25" y="200">  =-.                        =++++++++*+=.</tspan>
+<tspan x="25" y="210">  =::                      :*#########*=++:</tspan>
+<tspan x="25" y="220">  +--:                    =##########*-====.</tspan>
+<tspan x="25" y="230">  +-==                   +##########++*****+:</tspan>
+<tspan x="25" y="240">  =-===                :###########::*******=.</tspan>
+<tspan x="25" y="250">  :-===:              =##########*   .+******=</tspan>
+<tspan x="25" y="260">   -===+.           .*########%%=      +*****+=</tspan>
+<tspan x="25" y="270">   =-=+++          :++*******##.        +*****=:</tspan>
+<tspan x="25" y="280">   .:--===        +########%@#           =======</tspan>
+<tspan x="25" y="290">    -=+++++      *########%%=             +++**=:</tspan>
+<tspan x="25" y="300">    .-++++++   :###########.               ++++=+</tspan>
+<tspan x="25" y="310">     -=+++**+ =##########+                 .+++=#</tspan>
+<tspan x="25" y="320">      -++++*++##########-                   :++=#</tspan>
+<tspan x="25" y="330">       -+++=*#########*.                     -+=*.</tspan>
+<tspan x="25" y="340">       .-+=++++++****-                        --*</tspan>
+<tspan x="25" y="350">         -*#########:                         :-#</tspan>
+<tspan x="25" y="360">         *########*.                           -#</tspan>
+<tspan x="25" y="370">        *########=-*:                          -+</tspan>
+<tspan x="25" y="380">       +#######*-=*##=                         *:</tspan>
+<tspan x="25" y="390">      =*######*-=***##+                       .#-</tspan>
+<tspan x="25" y="400">     :***####+-=****###*.                     +==</tspan>
+<tspan x="25" y="410">     +++++++=. :=++++++++:                    +-=</tspan>
+<tspan x="25" y="420">    =****##=:   :******###=                  *==+</tspan>
+<tspan x="25" y="430">   .******=:     .******###*                =+=++</tspan>
+<tspan x="25" y="440">   =*****=:        +*******##:             .*=+++</tspan>
+<tspan x="25" y="450">   *****=:          =*******##=            *=+++=</tspan>
+<tspan x="25" y="460">  :****=-            :********#*          *=++++:</tspan>
+<tspan x="25" y="470">  -***==               =======+++        +=+++**</tspan>
+<tspan x="25" y="480">  ===--                 :---++==**.     --====+-</tspan>
+<tspan x="25" y="490">  +-+=-...:::::::::::::::-=-:::--==.   ==**=***</tspan>
+<tspan x="25" y="500">    .:.................   ...:::::----=-==::--:</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:6.000000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                          -**###=*###*</tspan>
+<tspan x="25" y="80">  .     ...........      +##########+</tspan>
+<tspan x="25" y="90"> .=:--:::::.....       :*##########=     ..</tspan>
+<tspan x="25" y="100">  =-==                =##########*.:---=*##+.</tspan>
+<tspan x="25" y="110">  +-==-              *##########+   =*******=</tspan>
+<tspan x="25" y="120">  =-==+.           :########%%%-     -*******=</tspan>
+<tspan x="25" y="130">  :-====          -++++****#%*        :******+=</tspan>
+<tspan x="25" y="140">   ===++=        +#######%%@+          :******+.</tspan>
+<tspan x="25" y="150">   ::-====     .*########%#:            .+===+-=</tspan>
+<tspan x="25" y="160">    -=++++-   -##########+               .++**+*</tspan>
+<tspan x="25" y="170">    :-+++++= =##########-                 .+++*+-</tspan>
+<tspan x="25" y="180">     -=++++=+#########*.                   :+++=+</tspan>
+<tspan x="25" y="190">      -+++=*#########+                      -++=*</tspan>
+<tspan x="25" y="200">      .-+==++++++**+:                        =+=*</tspan>
+<tspan x="25" y="210">       :-*########*:                         .--=</tspan>
+<tspan x="25" y="220">        +########+.                           -+-</tspan>
+<tspan x="25" y="230">       +########=--                            #.</tspan>
+<tspan x="25" y="240">      -#######*-=**+                          .#</tspan>
+<tspan x="25" y="250">     .*######*-=*****.                        +=</tspan>
+<tspan x="25" y="260">     ***####+-=*****##:                       #-:</tspan>
+<tspan x="25" y="270">    -++++++=: +*****###=                     +---</tspan>
+<tspan x="25" y="280">   .*****#=:   =+++++++*+                   -+==-</tspan>
+<tspan x="25" y="290">   +*****=:     =***######:                 *=++=</tspan>
+<tspan x="25" y="300">   *****=-       -**#######=               *=+++-</tspan>
+<tspan x="25" y="310">  -****=-         :*########*             +=+++*.</tspan>
+<tspan x="25" y="320">  +***==            *#######%%:          +=+++**</tspan>
+<tspan x="25" y="330">  ***+=              +#######%%+        ==++***=</tspan>
+<tspan x="25" y="340">  ===-.               -########%*      --====++</tspan>
+<tspan x="25" y="350"> .++--                  ++***+***+    ==******=</tspan>
+<tspan x="25" y="360"> .+=+                    +########*. =+*******</tspan>
+<tspan x="25" y="370">  +=:                     =######**+=+*******.</tspan>
+<tspan x="25" y="380">  -+                       :*####*==********-</tspan>
+<tspan x="25" y="390">  --                         +#**==********=</tspan>
+<tspan x="25" y="400">  =:                          =+=+*******#+</tspan>
+<tspan x="25" y="410">  =.                           :=++++++++=</tspan>
+<tspan x="25" y="420">  +:                          =*****####*-</tspan>
+<tspan x="25" y="430"> .=--                       .+***######*=*-</tspan>
+<tspan x="25" y="440"> .===:                     :***#######+=+*+-</tspan>
+<tspan x="25" y="450">  ====                    -*#########+=+++*+-</tspan>
+<tspan x="25" y="460">  +-=+=                  +##########::++++++=:</tspan>
+<tspan x="25" y="470">  =:===-               :*##########.  :======-</tspan>
+<tspan x="25" y="480">  :-++++-             -**********+     :+++++==</tspan>
+<tspan x="25" y="490">   =++--=======----:.*###**#####+::::::-====-+=.</tspan>
+<tspan x="25" y="500">                   :****++=**##:</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:6.166667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                 .*####+*#%@@-</tspan>
+<tspan x="25" y="80">                -########%%#.</tspan>
+<tspan x="25" y="90">   -:::-====---+##########= .::--======---:.-==-</tspan>
+<tspan x="25" y="100">   :-=-:--    +##########:               .--+*=*</tspan>
+<tspan x="25" y="110">    -=+++++. *#########+                  =++++*.</tspan>
+<tspan x="25" y="120">    .-+++++=*#########-                    =++++-</tspan>
+<tspan x="25" y="130">     :=+++-+++++++**+.                      =+++=</tspan>
+<tspan x="25" y="140">      :++=#########+.                       .=+=-</tspan>
+<tspan x="25" y="150">       :=#########=                          :-+-</tspan>
+<tspan x="25" y="160">       .*#######*-                            -*:</tspan>
+<tspan x="25" y="170">       *#######*-=                            .#</tspan>
+<tspan x="25" y="180">      +*######+-+*+                           -+</tspan>
+<tspan x="25" y="190">     =**#####=-+****:                         #-</tspan>
+<tspan x="25" y="200">    .+++++++--+******=                       -+-.</tspan>
+<tspan x="25" y="210">    +***##*- =******##+                      +:-.</tspan>
+<tspan x="25" y="220">   -****#*=   :=++++++++.                   +==+:</tspan>
+<tspan x="25" y="230">   ******=     :****#####=                 -+=++:</tspan>
+<tspan x="25" y="240">  :*****=.      .***######*               .*=+++.</tspan>
+<tspan x="25" y="250">  +****=:         **########.            .*=+++*</tspan>
+<tspan x="25" y="260">  ****=-           +########%=           +=++**+</tspan>
+<tspan x="25" y="270"> .+==--             -########%#         =-===++:</tspan>
+<tspan x="25" y="280"> .++==               :++++******      .++******</tspan>
+<tspan x="25" y="290"> :++=:                 +#########:   .++******:</tspan>
+<tspan x="25" y="300"> :+==                   =#########- :=*******=</tspan>
+<tspan x="25" y="310"> .==.                    :#######**==********</tspan>
+<tspan x="25" y="320">  -=                       *####*+=+********.</tspan>
+<tspan x="25" y="330">  =:                        =##*+=*******##:</tspan>
+<tspan x="25" y="340">  =                          :*=-++++++++*:</tspan>
+<tspan x="25" y="350">  +.                          :+*****####:</tspan>
+<tspan x="25" y="360"> :=-                         :*****#####=:</tspan>
+<tspan x="25" y="370"> :-=:                       =***#######=++:</tspan>
+<tspan x="25" y="380"> :-==                      +**#######*=++*+:</tspan>
+<tspan x="25" y="390"> :-===                   :**########*=+++**=:</tspan>
+<tspan x="25" y="400"> .-==+-                 =*#########+ +++++*+=</tspan>
+<tspan x="25" y="410">  ---==.               =+++++++***-   ======--</tspan>
+<tspan x="25" y="420">  =-++++.            :*##########:     +++++*=:</tspan>
+<tspan x="25" y="430">  :-+++++           =##########*        +++++=+</tspan>
+<tspan x="25" y="440">   ==+++*+         *#########%+          +++++=:</tspan>
+<tspan x="25" y="450">   .-++***+      :#########%%-            =+++=+</tspan>
+<tspan x="25" y="460">    -=+*****.   =##########*              .+++=*</tspan>
+<tspan x="25" y="470">     :====+++. *##########-                :-===.</tspan>
+<tspan x="25" y="480">     .-****++=++++++****+.                  -===-</tspan>
+<tspan x="25" y="490">      .=++=-=###**#####+.. .....:::::::::----=-+=</tspan>
+<tspan x="25" y="500">           :++++==****-</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:6.333333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                 .*####+*#%@@-</tspan>
+<tspan x="25" y="80">                -########%%#.</tspan>
+<tspan x="25" y="90">   -:::-====---+##########= .::--======---:.-==-</tspan>
+<tspan x="25" y="100">   :-=-:--    +##########:               .--+*=*</tspan>
+<tspan x="25" y="110">    -=+++++. *#########+                  =++++*.</tspan>
+<tspan x="25" y="120">    .-+++++=*#########-                    =++++-</tspan>
+<tspan x="25" y="130">     :=+++-+++++++**+.                      =+++=</tspan>
+<tspan x="25" y="140">      :++=#########+.                       .=+=-</tspan>
+<tspan x="25" y="150">       :=#########=                          :-+-</tspan>
+<tspan x="25" y="160">       .*#######*-                            -*:</tspan>
+<tspan x="25" y="170">       *#######*-=                            .#</tspan>
+<tspan x="25" y="180">      +*######+-+*+                           -+</tspan>
+<tspan x="25" y="190">     =**#####=-+****:                         #-</tspan>
+<tspan x="25" y="200">    .+++++++--+******=                       :+-.</tspan>
+<tspan x="25" y="210">    +***##*- =******##+                      +:-.</tspan>
+<tspan x="25" y="220">   -****#*=   :=++++++++.                   +==+:</tspan>
+<tspan x="25" y="230">   ******=     :****#####=                 -+=++:</tspan>
+<tspan x="25" y="240">  :*****=.      .***######*               .*=+++.</tspan>
+<tspan x="25" y="250">  +****=:         **########.            .*=+++*</tspan>
+<tspan x="25" y="260">  ****=-           +########%=           +=+***+</tspan>
+<tspan x="25" y="270"> .+==--             -########%#         =-===++:</tspan>
+<tspan x="25" y="280"> .++==               :++++******      .++******</tspan>
+<tspan x="25" y="290"> :++=:                 +#########:   .++******:</tspan>
+<tspan x="25" y="300"> :+==                   =#########- :=*******=</tspan>
+<tspan x="25" y="310"> .==.                    :#######**==********</tspan>
+<tspan x="25" y="320">  -=                       *####*+=+********.</tspan>
+<tspan x="25" y="330">  =:                        =##*+=*******##:</tspan>
+<tspan x="25" y="340">  =                          :*=-++++++++*:</tspan>
+<tspan x="25" y="350">  +.                          :+*****####:</tspan>
+<tspan x="25" y="360"> :=-                         :*****#####=:</tspan>
+<tspan x="25" y="370"> :-=:                       =***#######=++:</tspan>
+<tspan x="25" y="380"> :-==                      +**#######*=++*+:</tspan>
+<tspan x="25" y="390"> :-===                   :**########*=+++**=:</tspan>
+<tspan x="25" y="400"> .-==+-                 =*#########+ +++++*+=</tspan>
+<tspan x="25" y="410">  ---==.               =+++++++***-   ======--</tspan>
+<tspan x="25" y="420">  =-++++.            :*##########:     +++++*=:</tspan>
+<tspan x="25" y="430">  :-+++++           =##########*        +++++=+</tspan>
+<tspan x="25" y="440">   ==+++*+         *#########%+          +++++=:</tspan>
+<tspan x="25" y="450">   .-++***+      :#########%%-            =+++=+</tspan>
+<tspan x="25" y="460">    -=+*****.   =##########*              .+++=*</tspan>
+<tspan x="25" y="470">     :====+++. *##########-                :-===.</tspan>
+<tspan x="25" y="480">     .-****++=++++++****+.                  -===-</tspan>
+<tspan x="25" y="490">      .=++=-=###**#####+.. .....:::::::::----=-+=</tspan>
+<tspan x="25" y="500">           :++++==****-</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:6.500000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                 .*####+*#%@@-</tspan>
+<tspan x="25" y="80">                -########%%#.</tspan>
+<tspan x="25" y="90">   -:::-====---+##########= .::--======---:.-==-</tspan>
+<tspan x="25" y="100">   :-=-:--    +##########:               .--+*=*</tspan>
+<tspan x="25" y="110">    -=+++++. *#########+                  =++++*.</tspan>
+<tspan x="25" y="120">    .-+++++=*#########-                    =++++-</tspan>
+<tspan x="25" y="130">     :=+++-+++++++**+.                      =+++=</tspan>
+<tspan x="25" y="140">      :++=#########+.                       .=+=-</tspan>
+<tspan x="25" y="150">       :=#########=                          :-+-</tspan>
+<tspan x="25" y="160">       .*#######*-                            -*:</tspan>
+<tspan x="25" y="170">       *#######*-=                            .#</tspan>
+<tspan x="25" y="180">      +*######+-+*+                           -+</tspan>
+<tspan x="25" y="190">     =**#####=-+****:                         #-</tspan>
+<tspan x="25" y="200">    .+++++++--+******=                       :+-.</tspan>
+<tspan x="25" y="210">    +***##*- =******##+                      +:-.</tspan>
+<tspan x="25" y="220">   -****#*=   :=++++++++.                   +==+:</tspan>
+<tspan x="25" y="230">   ******=     :****#####=                 -+=++:</tspan>
+<tspan x="25" y="240">  :*****=.      .***######*               .*=+++.</tspan>
+<tspan x="25" y="250">  +****=:         **########.            .*=+++*</tspan>
+<tspan x="25" y="260">  ****=-           +########%=           +=+***+</tspan>
+<tspan x="25" y="270"> .+==--             -########%#         =-===++:</tspan>
+<tspan x="25" y="280"> .++==               :++++******      .++******</tspan>
+<tspan x="25" y="290"> :++=:                 +#########:   .++******:</tspan>
+<tspan x="25" y="300"> :+==                   =#########- :=*******=</tspan>
+<tspan x="25" y="310"> .==.                    :#######**==********</tspan>
+<tspan x="25" y="320">  -=                       *####*+=+********.</tspan>
+<tspan x="25" y="330">  =:                        =##*+=*******##:</tspan>
+<tspan x="25" y="340">  =                          :*=-++++++++*:</tspan>
+<tspan x="25" y="350">  +.                          :+*****####:</tspan>
+<tspan x="25" y="360"> :=-                         :*****#####=:</tspan>
+<tspan x="25" y="370"> :-=:                       =***#######=++:</tspan>
+<tspan x="25" y="380"> :-==                      +**#######*=++*+:</tspan>
+<tspan x="25" y="390"> :-===                   :**########*=+++**=:</tspan>
+<tspan x="25" y="400"> .-==+-                 =*#########+ +++++*+=</tspan>
+<tspan x="25" y="410">  ---==.               =+++++++***-   ======--</tspan>
+<tspan x="25" y="420">  =-++++.            :*##########:     +++++*=:</tspan>
+<tspan x="25" y="430">  :-+++++           =##########*        +++++=+</tspan>
+<tspan x="25" y="440">   ==+++*+         *#########%+          +++++=:</tspan>
+<tspan x="25" y="450">   .-++***+      :#########%%-            =+++=+</tspan>
+<tspan x="25" y="460">    -=+*****.   =##########*              .+++=*</tspan>
+<tspan x="25" y="470">     :====+++. *##########-                :-===.</tspan>
+<tspan x="25" y="480">     .-****++=++++++****+.                  -===-</tspan>
+<tspan x="25" y="490">      .=++=-=###**#####+.. .....:::::::::----=-+=</tspan>
+<tspan x="25" y="500">           :++++==****-</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:6.666667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                 *####*+#%%@=</tspan>
+<tspan x="25" y="80">               :*########%#:</tspan>
+<tspan x="25" y="90">   ::-.--===--=##########+. .::--=======---::+=+</tspan>
+<tspan x="25" y="100">    -+-:---  =##########-                 --+++*</tspan>
+<tspan x="25" y="110">    :-+++++-+#########*.                  .+++++:</tspan>
+<tspan x="25" y="120">     -=+++=*#########=                     :++++-</tspan>
+<tspan x="25" y="130">      -++==+++++++*+:                       -=++=</tspan>
+<tspan x="25" y="140">      .-=*########*:                         ===-</tspan>
+<tspan x="25" y="150">       .*########+.                           -+:</tspan>
+<tspan x="25" y="160">       +########-:                            :#</tspan>
+<tspan x="25" y="170">      =*######*-=*-                           .*</tspan>
+<tspan x="25" y="180">     :**#####+-=***=                          +=</tspan>
+<tspan x="25" y="190">     ***####+-=******                        .*-</tspan>
+<tspan x="25" y="200">    =++++++-:=********:                      *==.</tspan>
+<tspan x="25" y="210">   .****##=:  +*****###=                    -=--.</tspan>
+<tspan x="25" y="220">   +*****=:    =++++++++=                   *=++:</tspan>
+<tspan x="25" y="230">  .*****=-      =***######:                *=+++:</tspan>
+<tspan x="25" y="240">  =****=-        -**#######=              +=++++</tspan>
+<tspan x="25" y="250">  ****==          :*########*            +=++**+</tspan>
+<tspan x="25" y="260"> .***+=            .*#######%%:         ==+****-</tspan>
+<tspan x="25" y="270"> :+==-.              +#######%@=       --===+++</tspan>
+<tspan x="25" y="280"> .++--                -++++*****=     =+******-</tspan>
+<tspan x="25" y="290"> :+=+                  :*########*   =+*******</tspan>
+<tspan x="25" y="300"> :+=:                    *########*.=+*******.</tspan>
+<tspan x="25" y="310"> .-+                      =#####**==*******#-</tspan>
+<tspan x="25" y="320">  --                       :*###*=+*******#=</tspan>
+<tspan x="25" y="330">  +                          *#+=+******##+</tspan>
+<tspan x="25" y="340">  =                           --+++++++++=</tspan>
+<tspan x="25" y="350"> .=-                          =*****####+</tspan>
+<tspan x="25" y="360"> :--.                       :+***######++=</tspan>
+<tspan x="25" y="370"> --==                      -***#######++**=</tspan>
+<tspan x="25" y="380"> :-==:                    +*#########+++***=</tspan>
+<tspan x="25" y="390"> :-===.                 .*##########-++++**+-</tspan>
+<tspan x="25" y="400">  ==+++                -*#########*  -++++**=-</tspan>
+<tspan x="25" y="410">  =:===-              -+++++++***=    :=======</tspan>
+<tspan x="25" y="420">  --++++=           .*##########-      :+++++==</tspan>
+<tspan x="25" y="430">   -++++*=         -#########%#.        :+++++=</tspan>
+<tspan x="25" y="440">   --+++**=       +#########%*           -++++==</tspan>
+<tspan x="25" y="450">    -++****=    .*#########%-             -+++=*</tspan>
+<tspan x="25" y="460">    .-+*****=  -##########*                =++++.</tspan>
+<tspan x="25" y="470">     :=+==+++-+##########=                  -===:</tspan>
+<tspan x="25" y="480">      :+***+=++++++*****:                   :===-</tspan>
+<tspan x="25" y="490">       :+++-*###*#####*.   .....:::::::::----=-+=</tspan>
+<tspan x="25" y="500">          .++++==****-</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:6.833333s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">         +*##++###+::.</tspan>
+<tspan x="25" y="80">        +**######=  .:-=-:............         =</tspan>
+<tspan x="25" y="90">       +***####*----:. ---:...::::::::::::::--.#</tspan>
+<tspan x="25" y="100">      -****###*--.                            -*</tspan>
+<tspan x="25" y="110">     :****###+-=+*-                           +-</tspan>
+<tspan x="25" y="120">     *****##+-=+++*=                         .*-</tspan>
+<tspan x="25" y="130">    =**++++--=++++**+                        *==</tspan>
+<tspan x="25" y="140">   .+++**#=:.+++++****.                     :=--</tspan>
+<tspan x="25" y="150">   +*****=:   ++*******-                    *=++.</tspan>
+<tspan x="25" y="160">  .*****=-     ==+++++++=                  *=+++.</tspan>
+<tspan x="25" y="170">  =****=-       =*********.               +=+++*</tspan>
+<tspan x="25" y="180">  ****==         -*********-             +=++**+</tspan>
+<tspan x="25" y="190"> .***+=           :******###+           ==+****-</tspan>
+<tspan x="25" y="200"> :+*+-.            .**######%%:        --==++**</tspan>
+<tspan x="25" y="210"> :==--               +**#####%%=      =+*****+:</tspan>
+<tspan x="25" y="220"> -+=+                 -+++++++**=    =+*******</tspan>
+<tspan x="25" y="230"> -==:                  :*########*  =+*******.</tspan>
+<tspan x="25" y="240"> :-+                     *#######*==*******#-</tspan>
+<tspan x="25" y="250"> .-:                      =####**=+******##=</tspan>
+<tspan x="25" y="260">  +                        :*#*+=+****####+</tspan>
+<tspan x="25" y="270">  =                          *=-+++++++++=</tspan>
+<tspan x="25" y="280"> :-                          .+***######+</tspan>
+<tspan x="25" y="290"> ---                        :**########+-</tspan>
+<tspan x="25" y="300"> =-=.                      -*#########++*=</tspan>
+<tspan x="25" y="310"> =-==                     +##########+++**=</tspan>
+<tspan x="25" y="320"> --==-                  .*##########=+++***=</tspan>
+<tspan x="25" y="330"> :-=++.                -##########* -+++***+=</tspan>
+<tspan x="25" y="340">  -====               =**********-   :++++++-:</tspan>
+<tspan x="25" y="350">  ==+++=            :*##########:     .++++++=</tspan>
+<tspan x="25" y="360">  --++++=          =#########%#        :++++*=+</tspan>
+<tspan x="25" y="370">   -++++*=        *########%%+          :++++++.</tspan>
+<tspan x="25" y="380">   --+++**=     :#########%%:            :++++==</tspan>
+<tspan x="25" y="390">    -+++***+   =##########+               -+++=*</tspan>
+<tspan x="25" y="400">    .-++****+ +##########-                 =++=*</tspan>
+<tspan x="25" y="410">     .-=====-++++++++**+.                   -===.</tspan>
+<tspan x="25" y="420">      :++*+=*#########+                     :==+:</tspan>
+<tspan x="25" y="430">       :++=##########-                       -=+:</tspan>
+<tspan x="25" y="440">        :=*########*.                         -*.</tspan>
+<tspan x="25" y="450">        -*########+                           :#</tspan>
+<tspan x="25" y="460">       -**#######=-+.                         .*</tspan>
+<tspan x="25" y="470">      :***#####*--===.                        ==</tspan>
+<tspan x="25" y="480">     .++++++++=:=+===+-  .                    *:</tspan>
+<tspan x="25" y="490">     ***+*###=:----:::.:--:..::::::::::::::::-+:</tspan>
+<tspan x="25" y="500">    :---:=++:.........       .........::::::.-.</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:7.000000s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">    .                                :=*+=:-:.</tspan>
+<tspan x="25" y="80"> -:-=-+++++++++===----::..::-------:=+****+*#=</tspan>
+<tspan x="25" y="90"> ===.                  -:-.        -+*****##*</tspan>
+<tspan x="25" y="100"> =-=                   ... .:-===:=****#####</tspan>
+<tspan x="25" y="110"> :=.                    .++==+**=+**#######.</tspan>
+<tspan x="25" y="120">  +                       +***+-**########:</tspan>
+<tspan x="25" y="130"> .=                        -*=-++++++++**.</tspan>
+<tspan x="25" y="140"> ::                         :+##########.</tspan>
+<tspan x="25" y="150"> =:                        .*#########*-</tspan>
+<tspan x="25" y="160"> +::                      -##########*==-</tspan>
+<tspan x="25" y="170"> +:-.                    +##########++++*=</tspan>
+<tspan x="25" y="180"> +:=-                  .*##########++++***=</tspan>
+<tspan x="25" y="190"> =-==-                =##########*.=+++****=</tspan>
+<tspan x="25" y="200"> --==+.              =++********=   =+++***+=</tspan>
+<tspan x="25" y="210">  :==++            :#########%%-     -++****=-</tspan>
+<tspan x="25" y="220">  =-===-          =########%@%        :======-</tspan>
+<tspan x="25" y="230">  --+++*=        *#######%%@+          :+++++=+</tspan>
+<tspan x="25" y="240">   -++++*=     :*########%%:            :++++++</tspan>
+<tspan x="25" y="250">   :-+++**=   -##########*               :++++==</tspan>
+<tspan x="25" y="260">    -+++***= +##########-                 -+++=*</tspan>
+<tspan x="25" y="270">     -+****+=+++++****+                    =++=#</tspan>
+<tspan x="25" y="280">     .-====*#########+                      --:*</tspan>
+<tspan x="25" y="290">      :+*=*#########-                       .=-#</tspan>
+<tspan x="25" y="300">       :=*########*.                         --#</tspan>
+<tspan x="25" y="310">        *########+                            -#</tspan>
+<tspan x="25" y="320">       **#######-==                           ==</tspan>
+<tspan x="25" y="330">      ***#####*-=*#*                          *:</tspan>
+<tspan x="25" y="340">     -+++++++=:+**###:                       .*.</tspan>
+<tspan x="25" y="350">    -****###=-=+++++**=                      *=-</tspan>
+<tspan x="25" y="360">    ******#=. +***#####*                    :*-=</tspan>
+<tspan x="25" y="370">   +******=.   =***######.                  #-++</tspan>
+<tspan x="25" y="380">  .******=.     -**#######=                +=+++</tspan>
+<tspan x="25" y="390">  +*****=.       :**#######*              -+++++</tspan>
+<tspan x="25" y="400">  *****-:         .**########.           .*++**=</tspan>
+<tspan x="25" y="410"> .====-:            =+++++****:          =-==++.</tspan>
+<tspan x="25" y="420"> -+**==              =*#######%=        ++*****</tspan>
+<tspan x="25" y="430"> =++==                :***######+      ++*****=</tspan>
+<tspan x="25" y="440"> ++==.                  +*****###*    ++******</tspan>
+<tspan x="25" y="450"> =+=-                    =*********. ++*****#-</tspan>
+<tspan x="25" y="460"> --+                      -********==*****##*</tspan>
+<tspan x="25" y="470"> :=-                        ========****###*</tspan>
+<tspan x="25" y="480">  =                    .:.   =+++-=++++++++.</tspan>
+<tspan x="25" y="490"> .=.--------------------=-:  ...-+*#**####-</tspan>
+<tspan x="25" y="500">              ...       ...:::--++++-=+++-</tspan>
+</text>
+</g>
+<g class="frame" style="animation-delay:7.166667s">
+<rect x="6" y="49" width="357" height="509" fill="#161b22"/>
+<text class="art" xml:space="preserve">
+<tspan x="25" y="70">                              +####=+###*</tspan>
+<tspan x="25" y="80"> :.:::::::::::::::.....   .::*#########*</tspan>
+<tspan x="25" y="90"> =::..............     ... -##########+</tspan>
+<tspan x="25" y="100"> +::                      +##########*+*-</tspan>
+<tspan x="25" y="110"> +:-                    .*##########+****-</tspan>
+<tspan x="25" y="120"> +:--                  -###########+******-</tspan>
+<tspan x="25" y="130"> =-==.                =**********=:********-</tspan>
+<tspan x="25" y="140"> :-===              :#########%%-  .+******+-</tspan>
+<tspan x="25" y="150">  :----            =########%%#.     +**++++-.</tspan>
+<tspan x="25" y="160">  ==+++-          *#######%@@*        -=++***+</tspan>
+<tspan x="25" y="170">  --++++:       :########%@@-          =+****==</tspan>
+<tspan x="25" y="180">   -+++++:     -########%%*             =+++*++</tspan>
+<tspan x="25" y="190">   --+++++:   +##########=               =++++=-</tspan>
+<tspan x="25" y="200">    -++++**: =+++******+.                 =+++=*</tspan>
+<tspan x="25" y="210">    .-++***=*#########+                    ===-*</tspan>
+<tspan x="25" y="220">     .-====*#########-                      -=-#</tspan>
+<tspan x="25" y="230">      :++=#########*.                       :=-#</tspan>
+<tspan x="25" y="240">       -=#########+                          --#</tspan>
+<tspan x="25" y="250">       :#########-                            -#</tspan>
+<tspan x="25" y="260">       *#######*-=.                           =+</tspan>
+<tspan x="25" y="270">      ++++++++=:+##-                          +:</tspan>
+<tspan x="25" y="280">     +**#####=:=+++*=                        .*.</tspan>
+<tspan x="25" y="290">    -****##*=-****###*                       *=-</tspan>
+<tspan x="25" y="300">    *****#*= :****#####:                    :*-=</tspan>
+<tspan x="25" y="310">   +******=   .**#######+                   *-==</tspan>
+<tspan x="25" y="320">  .******=      **#######*                 +=+++</tspan>
+<tspan x="25" y="330">  =****+=        +#########:              -+++++</tspan>
+<tspan x="25" y="340">  ==++=-          =########%=            .=====-</tspan>
+<tspan x="25" y="350"> :****=:           :********#*          .++****:</tspan>
+<tspan x="25" y="360"> -+**=-             .*#######%%:       .++*****</tspan>
+<tspan x="25" y="370"> =++==                +########%-     .++*****-</tspan>
+<tspan x="25" y="380"> ++==                  -#########=   .++******</tspan>
+<tspan x="25" y="390"> =+=-                   .*########+ :+******#:</tspan>
+<tspan x="25" y="400"> --+                      *#####***==****###+</tspan>
+<tspan x="25" y="410"> .-:                       -+++++=-=++++++++</tspan>
+<tspan x="25" y="420">  +                         :***+=+**######.</tspan>
+<tspan x="25" y="430"> .=                          .*+=*########:</tspan>
+<tspan x="25" y="440"> --                           .=*########:</tspan>
+<tspan x="25" y="450"> =--                         :+#########=:</tspan>
+<tspan x="25" y="460"> +--.                       -*#########=++:</tspan>
+<tspan x="25" y="470"> +:--                      =##########-===-.</tspan>
+<tspan x="25" y="480"> =:==-                    =++*******+=+++**=.</tspan>
+<tspan x="25" y="490"> --=:====---==------:::.-*###*#####*---==-++=</tspan>
+<tspan x="25" y="500">                       =****=+****=</tspan>
+</text>
+</g>
+</g>
+<text x="50" y="581" class="subtle">FRAME-BY-FRAME VIDEO TO ASCII</text>
 <text x="370" y="35" class="main">ishan@github</text>
-<path d="M 485 30 H 960" stroke="#30363d" stroke-width="1"/>
+<path d="M485 30 H960" stroke="#30363d" stroke-width="1"/>
 <text x="370" y="63" xml:space="preserve"><tspan class="key">OS</tspan><tspan class="cc">: ....................... </tspan><tspan class="value">Windows 11 Pro, iOS 26, Ubuntu Linux</tspan></text>
 <text x="370" y="86" xml:space="preserve"><tspan class="key">Host</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">Full-time student</tspan></text>
 <text x="370" y="109" xml:space="preserve"><tspan class="key">IDE</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">VS Code, Arduino IDE</tspan></text>
@@ -103,8 +2240,8 @@
 <text x="370" y="492" class="main">- GitHub Stats</text>
 <text x="370" y="517" xml:space="preserve"><tspan class="key">Repos</tspan><tspan class="cc">: ........ </tspan><tspan id="repo_data" class="value">15</tspan></text>
 <text x="650" y="517" xml:space="preserve"><tspan class="key">Stars</tspan><tspan class="cc">: ...... </tspan><tspan id="stars_data" class="value">7</tspan></text>
-<text x="370" y="541" xml:space="preserve"><tspan class="key">Contrib.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="contrib_data" class="value">187</tspan></text>
+<text x="370" y="541" xml:space="preserve"><tspan class="key">Contrib.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="contrib_data" class="value">185</tspan></text>
 <text x="650" y="541" xml:space="preserve"><tspan class="key">Followers</tspan><tspan class="cc">: ...... </tspan><tspan id="followers_data" class="value">1</tspan></text>
-<text x="370" y="565" xml:space="preserve"><tspan class="key">Commits.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="commits_data" class="value">172</tspan></text>
+<text x="370" y="565" xml:space="preserve"><tspan class="key">Commits.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="commits_data" class="value">170</tspan></text>
 <text x="650" y="565" xml:space="preserve"><tspan class="key">Updated</tspan><tspan class="cc">: ...... </tspan><tspan id="updated_data" class="value">2026-10-31</tspan></text>
 </svg>
