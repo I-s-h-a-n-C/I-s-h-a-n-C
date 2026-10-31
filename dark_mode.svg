@@ -51,10 +51,10 @@
 <path d="M370 149 H960 M370 239 H960 M370 353 H960 M370 465 H960" stroke="#30363d" stroke-width="1"/>
 <text x="370" y="376" class="main">- Contact</text>
 <text x="370" y="488" class="main">- GitHub Stats</text>
-<text x="370" y="514" xml:space="preserve"><tspan class="key">Repos</tspan><tspan class="cc">: ........ </tspan><tspan id="repo_data" class="value">—</tspan></text>
-<text x="650" y="514" xml:space="preserve"><tspan class="key">Stars</tspan><tspan class="cc">: ...... </tspan><tspan id="stars_data" class="value">—</tspan></text>
-<text x="370" y="538" xml:space="preserve"><tspan class="key">Contrib.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="contrib_data" class="value">—</tspan></text>
-<text x="650" y="538" xml:space="preserve"><tspan class="key">Followers</tspan><tspan class="cc">: ...... </tspan><tspan id="followers_data" class="value">—</tspan></text>
-<text x="370" y="562" xml:space="preserve"><tspan class="key">Commits.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="commits_data" class="value">—</tspan></text>
-<text x="650" y="562" xml:space="preserve"><tspan class="key">Updated</tspan><tspan class="cc">: ...... </tspan><tspan id="updated_data" class="value">—</tspan></text>
+<text x="370" y="514" xml:space="preserve"><tspan class="key">Repos</tspan><tspan class="cc">: ........ </tspan><tspan id="repo_data" class="value">15</tspan></text>
+<text x="650" y="514" xml:space="preserve"><tspan class="key">Stars</tspan><tspan class="cc">: ...... </tspan><tspan id="stars_data" class="value">7</tspan></text>
+<text x="370" y="538" xml:space="preserve"><tspan class="key">Contrib.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="contrib_data" class="value">185</tspan></text>
+<text x="650" y="538" xml:space="preserve"><tspan class="key">Followers</tspan><tspan class="cc">: ...... </tspan><tspan id="followers_data" class="value">1</tspan></text>
+<text x="370" y="562" xml:space="preserve"><tspan class="key">Commits.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="commits_data" class="value">170</tspan></text>
+<text x="650" y="562" xml:space="preserve"><tspan class="key">Updated</tspan><tspan class="cc">: ...... </tspan><tspan id="updated_data" class="value">2026-10-31</tspan></text>
 </svg>
