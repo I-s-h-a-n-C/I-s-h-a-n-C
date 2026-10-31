@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="590" viewBox="0 0 985 590" font-family="Consolas, 'Liberation Mono', monospace" font-size="14">
+<style>
+  text { white-space: pre; fill: #c9d1d9; }
+  .main { fill: #c9d1d9; }
+  .key { fill: #ffa657; }
+  .value { fill: #a5d6ff; }
+  .cc { fill: #616e7f; }
+  .art { font-size: 15px; fill: #c9d1d9; }
+  .subtle { fill: #ffa657; font-size: 12px; letter-spacing: 1px; }
+</style>
+<rect width="985" height="590" rx="15" fill="#161b22"/>
+<text x="22" y="55" class="subtle">WIND FLOW  &gt;&gt;&gt;&gt;&gt;</text>
+<text x="12" y="118" class="art" xml:space="preserve">              .----------------.</text>
+<text x="12" y="138" class="art" xml:space="preserve">           .-'    .--.  .--.     '-.</text>
+<text x="12" y="158" class="art" xml:space="preserve">         .'      /    \/    \       '.</text>
+<text x="12" y="178" class="art" xml:space="preserve">        /       /     ||     \        \</text>
+<text x="12" y="198" class="art" xml:space="preserve">       |       /      ||      \        |</text>
+<text x="12" y="218" class="art" xml:space="preserve">       |      |      /||\      |       |</text>
+<text x="12" y="238" class="art" xml:space="preserve">       |      |     / || \     |       |</text>
+<text x="12" y="258" class="art" xml:space="preserve">       |      |    /  ||  \    |       |</text>
+<text x="12" y="278" class="art" xml:space="preserve">       |      |    \  ||  /    |       |</text>
+<text x="12" y="298" class="art" xml:space="preserve">       |      |     \ || /     |       |</text>
+<text x="12" y="318" class="art" xml:space="preserve">       |       \     \||/     /        |</text>
+<text x="12" y="338" class="art" xml:space="preserve">        \       \     ||     /        /</text>
+<text x="12" y="358" class="art" xml:space="preserve">         '.      '.___||__.'        .'</text>
+<text x="12" y="378" class="art" xml:space="preserve">           '-.       ||         .-'</text>
+<text x="12" y="398" class="art" xml:space="preserve">              '------||-------'</text>
+<text x="12" y="418" class="art" xml:space="preserve">                     ||</text>
+<text x="12" y="438" class="art" xml:space="preserve">                     ||</text>
+<text x="12" y="458" class="art" xml:space="preserve">                     ||</text>
+<text x="12" y="478" class="art" xml:space="preserve">                    /||\</text>
+<text x="12" y="498" class="art" xml:space="preserve">                   /_||_\</text>
+<text x="70" y="560" class="subtle">VAWT / CFD / OPTIMIZATION</text>
+<text x="370" y="35" class="main">ishan@github</text>
+<path d="M 485 30 H 960" stroke="#30363d" stroke-width="1"/>
+<text x="370" y="63" xml:space="preserve"><tspan class="key">OS</tspan><tspan class="cc">: ....................... </tspan><tspan class="value">Windows 11 Pro, iOS 26, Ubuntu Linux</tspan></text>
+<text x="370" y="86" xml:space="preserve"><tspan class="key">Uptime</tspan><tspan class="cc">: ................... </tspan><tspan id="age_data" class="value">17 years, 10 months</tspan></text>
+<text x="370" y="109" xml:space="preserve"><tspan class="key">Host</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">Full-time student</tspan></text>
+<text x="370" y="132" xml:space="preserve"><tspan class="key">IDE</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">VS Code, Arduino IDE</tspan></text>
+<text x="370" y="176" xml:space="preserve"><tspan class="key">Languages.Programming</tspan><tspan class="cc">: .... </tspan><tspan class="value">Python, C++, JavaScript</tspan></text>
+<text x="370" y="199" xml:space="preserve"><tspan class="key">Languages.Computer</tspan><tspan class="cc">: ....... </tspan><tspan class="value">HTML, CSS, LaTeX</tspan></text>
+<text x="370" y="222" xml:space="preserve"><tspan class="key">Languages.Real</tspan><tspan class="cc">: ........... </tspan><tspan class="value">English, Bangla, Hindi, Spanish</tspan></text>
+<text x="370" y="268" xml:space="preserve"><tspan class="key">Research.Interests</tspan><tspan class="cc">: ....... </tspan><tspan class="value">Fluid dynamics, ML, wind turbines</tspan></text>
+<text x="370" y="291" xml:space="preserve"><tspan class="key">Research.Energy</tspan><tspan class="cc">: .......... </tspan><tspan class="value">Renewable energy</tspan></text>
+<text x="370" y="314" xml:space="preserve"><tspan class="key">Hobbies.Software</tspan><tspan class="cc">: ......... </tspan><tspan class="value">Video games, app development, CFD, ML</tspan></text>
+<text x="370" y="337" xml:space="preserve"><tspan class="key">Hobbies.Hardware</tspan><tspan class="cc">: ......... </tspan><tspan class="value">Wind turbines, solar panels</tspan></text>
+<text x="370" y="401" xml:space="preserve"><tspan class="key">Email</tspan><tspan class="cc">: .................... </tspan><tspan class="value">chakrish@outlook.com</tspan></text>
+<text x="370" y="424" xml:space="preserve"><tspan class="key">Website</tspan><tspan class="cc">: .................. </tspan><tspan class="value">ishanc.netlify.app</tspan></text>
+<text x="370" y="447" xml:space="preserve"><tspan class="key">GitHub</tspan><tspan class="cc">: ................... </tspan><tspan class="value">github.com/I-s-h-a-n-C</tspan></text>
+<path d="M370 149 H960 M370 239 H960 M370 353 H960 M370 465 H960" stroke="#30363d" stroke-width="1"/>
+<text x="370" y="376" class="main">- Contact</text>
+<text x="370" y="488" class="main">- GitHub Stats</text>
+<text x="370" y="514" xml:space="preserve"><tspan class="key">Repos</tspan><tspan class="cc">: ........ </tspan><tspan id="repo_data" class="value">—</tspan></text>
+<text x="650" y="514" xml:space="preserve"><tspan class="key">Stars</tspan><tspan class="cc">: ...... </tspan><tspan id="stars_data" class="value">—</tspan></text>
+<text x="370" y="538" xml:space="preserve"><tspan class="key">Contrib.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="contrib_data" class="value">—</tspan></text>
+<text x="650" y="538" xml:space="preserve"><tspan class="key">Followers</tspan><tspan class="cc">: ...... </tspan><tspan id="followers_data" class="value">—</tspan></text>
+<text x="370" y="562" xml:space="preserve"><tspan class="key">Commits.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="commits_data" class="value">—</tspan></text>
+<text x="650" y="562" xml:space="preserve"><tspan class="key">Updated</tspan><tspan class="cc">: ...... </tspan><tspan id="updated_data" class="value">—</tspan></text>
+</svg>
