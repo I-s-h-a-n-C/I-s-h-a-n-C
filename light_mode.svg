@@ -84,26 +84,27 @@
 <text x="370" y="35" class="main">ishan@github</text>
 <path d="M 485 30 H 960" stroke="#d0d7de" stroke-width="1"/>
 <text x="370" y="63" xml:space="preserve"><tspan class="key">OS</tspan><tspan class="cc">: ....................... </tspan><tspan class="value">Windows 11 Pro, iOS 26, Ubuntu Linux</tspan></text>
-<text x="370" y="86" xml:space="preserve"><tspan class="key">Uptime</tspan><tspan class="cc">: ................... </tspan><tspan id="age_data" class="value">17 years, 10 months</tspan></text>
-<text x="370" y="109" xml:space="preserve"><tspan class="key">Host</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">Full-time student</tspan></text>
-<text x="370" y="132" xml:space="preserve"><tspan class="key">IDE</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">VS Code, Arduino IDE</tspan></text>
-<text x="370" y="176" xml:space="preserve"><tspan class="key">Languages.Programming</tspan><tspan class="cc">: .... </tspan><tspan class="value">Python, C++, JavaScript</tspan></text>
-<text x="370" y="199" xml:space="preserve"><tspan class="key">Languages.Computer</tspan><tspan class="cc">: ....... </tspan><tspan class="value">HTML, CSS, LaTeX</tspan></text>
-<text x="370" y="222" xml:space="preserve"><tspan class="key">Languages.Real</tspan><tspan class="cc">: ........... </tspan><tspan class="value">English, Bangla, Hindi, Spanish</tspan></text>
-<text x="370" y="268" xml:space="preserve"><tspan class="key">Research.Interests</tspan><tspan class="cc">: ....... </tspan><tspan class="value">Fluid dynamics, ML, wind turbines</tspan></text>
-<text x="370" y="291" xml:space="preserve"><tspan class="key">Research.Energy</tspan><tspan class="cc">: .......... </tspan><tspan class="value">Renewable energy</tspan></text>
-<text x="370" y="314" xml:space="preserve"><tspan class="key">Hobbies.Software</tspan><tspan class="cc">: ......... </tspan><tspan class="value">Video games, app development, CFD, ML</tspan></text>
-<text x="370" y="337" xml:space="preserve"><tspan class="key">Hobbies.Hardware</tspan><tspan class="cc">: ......... </tspan><tspan class="value">Wind turbines, solar panels</tspan></text>
-<text x="370" y="401" xml:space="preserve"><tspan class="key">Email</tspan><tspan class="cc">: .................... </tspan><tspan class="value">chakrish@outlook.com</tspan></text>
-<text x="370" y="424" xml:space="preserve"><tspan class="key">Website</tspan><tspan class="cc">: .................. </tspan><tspan class="value">ishanc.netlify.app</tspan></text>
-<text x="370" y="447" xml:space="preserve"><tspan class="key">GitHub</tspan><tspan class="cc">: ................... </tspan><tspan class="value">github.com/I-s-h-a-n-C</tspan></text>
-<path d="M370 149 H960 M370 239 H960 M370 353 H960 M370 465 H960" stroke="#d0d7de" stroke-width="1"/>
-<text x="370" y="376" class="main">- Contact</text>
-<text x="370" y="488" class="main">- GitHub Stats</text>
-<text x="370" y="514" xml:space="preserve"><tspan class="key">Repos</tspan><tspan class="cc">: ........ </tspan><tspan id="repo_data" class="value">15</tspan></text>
-<text x="650" y="514" xml:space="preserve"><tspan class="key">Stars</tspan><tspan class="cc">: ...... </tspan><tspan id="stars_data" class="value">7</tspan></text>
-<text x="370" y="538" xml:space="preserve"><tspan class="key">Contrib.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="contrib_data" class="value">185</tspan></text>
-<text x="650" y="538" xml:space="preserve"><tspan class="key">Followers</tspan><tspan class="cc">: ...... </tspan><tspan id="followers_data" class="value">1</tspan></text>
-<text x="370" y="562" xml:space="preserve"><tspan class="key">Commits.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="commits_data" class="value">170</tspan></text>
-<text x="650" y="562" xml:space="preserve"><tspan class="key">Updated</tspan><tspan class="cc">: ...... </tspan><tspan id="updated_data" class="value">2026-10-31</tspan></text>
+<text x="370" y="86" xml:space="preserve"><tspan class="key">Host</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">Full-time student</tspan></text>
+<text x="370" y="109" xml:space="preserve"><tspan class="key">IDE</tspan><tspan class="cc">: ...................... </tspan><tspan class="value">VS Code, Arduino IDE</tspan></text>
+<text x="370" y="132" xml:space="preserve"><tspan class="key">CAD.Software</tspan><tspan class="cc">: ............. </tspan><tspan class="value">Fusion 360, Onshape, Revit</tspan></text>
+<text x="370" y="155" xml:space="preserve"><tspan class="key">PCB.Software</tspan><tspan class="cc">: ............. </tspan><tspan class="value">KiCad</tspan></text>
+<text x="370" y="193" xml:space="preserve"><tspan class="key">Languages.Programming</tspan><tspan class="cc">: .... </tspan><tspan class="value">Python, C++, JavaScript</tspan></text>
+<text x="370" y="216" xml:space="preserve"><tspan class="key">Languages.Computer</tspan><tspan class="cc">: ....... </tspan><tspan class="value">HTML, CSS, LaTeX</tspan></text>
+<text x="370" y="239" xml:space="preserve"><tspan class="key">Languages.Real</tspan><tspan class="cc">: ........... </tspan><tspan class="value">English, Bangla, Hindi, Spanish</tspan></text>
+<text x="370" y="274" xml:space="preserve"><tspan class="key">Research.Interests</tspan><tspan class="cc">: ....... </tspan><tspan class="value">Fluid dynamics, ML, wind turbines</tspan></text>
+<text x="370" y="297" xml:space="preserve"><tspan class="key">Research.Energy</tspan><tspan class="cc">: .......... </tspan><tspan class="value">Renewable energy</tspan></text>
+<text x="370" y="320" xml:space="preserve"><tspan class="key">Hobbies.Software</tspan><tspan class="cc">: ......... </tspan><tspan class="value">Video games, app development, CFD, ML</tspan></text>
+<text x="370" y="343" xml:space="preserve"><tspan class="key">Hobbies.Hardware</tspan><tspan class="cc">: ......... </tspan><tspan class="value">Wind turbines, solar panels</tspan></text>
+<text x="370" y="405" xml:space="preserve"><tspan class="key">Email</tspan><tspan class="cc">: .................... </tspan><tspan class="value">chakrish@outlook.com</tspan></text>
+<text x="370" y="428" xml:space="preserve"><tspan class="key">Website</tspan><tspan class="cc">: .................. </tspan><tspan class="value">ishanc.netlify.app</tspan></text>
+<text x="370" y="451" xml:space="preserve"><tspan class="key">GitHub</tspan><tspan class="cc">: ................... </tspan><tspan class="value">github.com/I-s-h-a-n-C</tspan></text>
+<path d="M370 170 H960 M370 251 H960 M370 359 H960 M370 469 H960" stroke="#d0d7de" stroke-width="1"/>
+<text x="370" y="382" class="main">- Contact</text>
+<text x="370" y="492" class="main">- GitHub Stats</text>
+<text x="370" y="517" xml:space="preserve"><tspan class="key">Repos</tspan><tspan class="cc">: ........ </tspan><tspan id="repo_data" class="value">15</tspan></text>
+<text x="650" y="517" xml:space="preserve"><tspan class="key">Stars</tspan><tspan class="cc">: ...... </tspan><tspan id="stars_data" class="value">7</tspan></text>
+<text x="370" y="541" xml:space="preserve"><tspan class="key">Contrib.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="contrib_data" class="value">185</tspan></text>
+<text x="650" y="541" xml:space="preserve"><tspan class="key">Followers</tspan><tspan class="cc">: ...... </tspan><tspan id="followers_data" class="value">1</tspan></text>
+<text x="370" y="565" xml:space="preserve"><tspan class="key">Commits.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="commits_data" class="value">170</tspan></text>
+<text x="650" y="565" xml:space="preserve"><tspan class="key">Updated</tspan><tspan class="cc">: ...... </tspan><tspan id="updated_data" class="value">2026-10-31</tspan></text>
 </svg>

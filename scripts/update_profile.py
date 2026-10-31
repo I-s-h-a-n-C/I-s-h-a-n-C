@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Refresh the SVG profile's age and public GitHub statistics.
+"""Refresh the SVG profile's public GitHub statistics.
 
 The workflow uses the built-in GITHUB_TOKEN. No personal access token,
 external Python dependencies, or extra GitHub secrets are required.
 """
-from datetime import date, datetime, timezone
+from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 import json
@@ -14,18 +14,10 @@ import sys
 from urllib.request import Request, urlopen
 
 LOGIN = "I-s-h-a-n-C"
-BORN = date(2008, 12, 12)
 ROOT = Path(__file__).resolve().parent.parent
-FIELDS = ("age_data", "repo_data", "stars_data", "contrib_data",
+FIELDS = ("repo_data", "stars_data", "contrib_data",
           "followers_data", "commits_data", "updated_data")
 
-
-def age_in_years_and_months(today: date) -> str:
-    total_months = (today.year - BORN.year) * 12 + today.month - BORN.month
-    if today.day < BORN.day:
-        total_months -= 1
-    years, months = divmod(total_months, 12)
-    return f"{years} years, {months} months"
 
 
 def github_graphql(query: str, variables: dict) -> dict:
@@ -115,7 +107,7 @@ def update_svg(path: Path, values: dict) -> bool:
 
 def main() -> None:
     today = datetime.now(timezone.utc).date()
-    values = {"age_data": age_in_years_and_months(today)}
+    values = {}
     try:
         values.update(github_stats())
         values["updated_data"] = today.isoformat()
