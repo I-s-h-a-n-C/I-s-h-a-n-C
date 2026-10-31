@@ -12,7 +12,6 @@
  .frame {opacity:0;animation-name:showFrame;animation-duration:7.333333s;animation-timing-function:linear;animation-iteration-count:infinite;}
 </style>
 <rect width="985" height="590" rx="15" fill="#161b22"/>
-<text x="20" y="33" class="subtle">HELICAL VAWT / ASCII MOTION</text>
 <g id="turbine-animation">
 <g id="static-fallback"><text class="art" xml:space="preserve">
 <tspan x="25" y="70">                              +####=+###*</tspan>
@@ -2217,7 +2216,6 @@
 </text>
 </g>
 </g>
-<text x="50" y="581" class="subtle">FRAME-BY-FRAME VIDEO TO ASCII</text>
 <text x="370" y="35" class="main">ishan@github</text>
 <path d="M485 30 H960" stroke="#30363d" stroke-width="1"/>
 <text x="370" y="63" xml:space="preserve"><tspan class="key">OS</tspan><tspan class="cc">: ....................... </tspan><tspan class="value">Windows 11 Pro, iOS 26, Ubuntu Linux</tspan></text>
@@ -2235,13 +2233,14 @@
 <text x="370" y="405" xml:space="preserve"><tspan class="key">Email</tspan><tspan class="cc">: .................... </tspan><tspan class="value">chakrish@outlook.com</tspan></text>
 <text x="370" y="428" xml:space="preserve"><tspan class="key">Website</tspan><tspan class="cc">: .................. </tspan><tspan class="value">ishanc.netlify.app</tspan></text>
 <text x="370" y="451" xml:space="preserve"><tspan class="key">GitHub</tspan><tspan class="cc">: ................... </tspan><tspan class="value">github.com/I-s-h-a-n-C</tspan></text>
-<path d="M370 170 H960 M370 251 H960 M370 359 H960 M370 469 H960" stroke="#30363d" stroke-width="1"/>
+<text x="370" y="474" xml:space="preserve"><tspan class="key">Instagram</tspan><tspan class="cc">: ................ </tspan><tspan class="value">ishan.chakrabarti</tspan></text>
+<path d="M370 170 H960 M370 251 H960 M370 359 H960 M370 487 H960" stroke="#30363d" stroke-width="1"/>
 <text x="370" y="382" class="main">- Contact</text>
-<text x="370" y="492" class="main">- GitHub Stats</text>
-<text x="370" y="517" xml:space="preserve"><tspan class="key">Repos</tspan><tspan class="cc">: ........ </tspan><tspan id="repo_data" class="value">15</tspan></text>
-<text x="650" y="517" xml:space="preserve"><tspan class="key">Stars</tspan><tspan class="cc">: ...... </tspan><tspan id="stars_data" class="value">7</tspan></text>
-<text x="370" y="541" xml:space="preserve"><tspan class="key">Contrib.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="contrib_data" class="value">185</tspan></text>
-<text x="650" y="541" xml:space="preserve"><tspan class="key">Followers</tspan><tspan class="cc">: ...... </tspan><tspan id="followers_data" class="value">1</tspan></text>
-<text x="370" y="565" xml:space="preserve"><tspan class="key">Commits.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="commits_data" class="value">170</tspan></text>
-<text x="650" y="565" xml:space="preserve"><tspan class="key">Updated</tspan><tspan class="cc">: ...... </tspan><tspan id="updated_data" class="value">2026-10-31</tspan></text>
+<text x="370" y="508" class="main">- GitHub Stats</text>
+<text x="370" y="529" xml:space="preserve"><tspan class="key">Repos</tspan><tspan class="cc">: ........ </tspan><tspan id="repo_data" class="value">15</tspan></text>
+<text x="650" y="529" xml:space="preserve"><tspan class="key">Stars</tspan><tspan class="cc">: ...... </tspan><tspan id="stars_data" class="value">7</tspan></text>
+<text x="370" y="552" xml:space="preserve"><tspan class="key">Contrib.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="contrib_data" class="value">185</tspan></text>
+<text x="650" y="552" xml:space="preserve"><tspan class="key">Followers</tspan><tspan class="cc">: ...... </tspan><tspan id="followers_data" class="value">1</tspan></text>
+<text x="370" y="575" xml:space="preserve"><tspan class="key">Commits.12mo</tspan><tspan class="cc">: ........ </tspan><tspan id="commits_data" class="value">170</tspan></text>
+<text x="650" y="575" xml:space="preserve"><tspan class="key">Updated</tspan><tspan class="cc">: ...... </tspan><tspan id="updated_data" class="value">2026-10-31</tspan></text>
 </svg>
